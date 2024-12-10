@@ -1,0 +1,5755 @@
+{
+  "total_repos": 100,
+  "repos_with_boms": 28,
+  "total_boms_found": 102,
+  "detailed_results": [
+    {
+      "repo_url": "https://github.com/arturo182/pmod_rgb_oled_0.95in",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T08:56:21.595243"
+    },
+    {
+      "repo_url": "https://github.com/conor-burns/0xcb-1337",
+      "bom_count": 1,
+      "patterns": [
+        {
+          "type": "csv",
+          "path": "rev5.0/kikit/prod/bom.csv",
+          "columns": [
+            "Comment",
+            "Designator",
+            "Footprint",
+            "LCSC"
+          ],
+          "row_count": 25,
+          "sample_rows": [
+            {
+              "Comment": "100n",
+              "Designator": "C1,C2,C3,C4,C5,C6,C7,C8,C9,C12,C13,C14,C15,C16,C18,C19,C20,C21,C23,C24,C25,C27,C28,C29,C30,C31,C32,C33,C34,C35,C36,C38,C39,C41,C42,C43,C44,C45,C46,C47,C48,C49,C50,C51",
+              "Footprint": "Capacitor_SMD:C_0201_0603Metric",
+              "LCSC": "C576431"
+            },
+            {
+              "Comment": "1u",
+              "Designator": "C22,C26",
+              "Footprint": "Capacitor_SMD:C_0201_0603Metric",
+              "LCSC": "C76935"
+            },
+            {
+              "Comment": "TPS2553DBVR",
+              "Designator": "U3",
+              "Footprint": "0xcb:SOT95P280X145-6N",
+              "LCSC": "C55266"
+            }
+          ],
+          "separator": ","
+        }
+      ],
+      "analysis_time": "2024-12-10T08:56:35.091176"
+    },
+    {
+      "repo_url": "https://github.com/0xcb-dev/0xcb-1337",
+      "bom_count": 1,
+      "patterns": [
+        {
+          "type": "csv",
+          "path": "rev5.0/kikit/prod/bom.csv",
+          "columns": [
+            "Comment",
+            "Designator",
+            "Footprint",
+            "LCSC"
+          ],
+          "row_count": 25,
+          "sample_rows": [
+            {
+              "Comment": "100n",
+              "Designator": "C1,C2,C3,C4,C5,C6,C7,C8,C9,C12,C13,C14,C15,C16,C18,C19,C20,C21,C23,C24,C25,C27,C28,C29,C30,C31,C32,C33,C34,C35,C36,C38,C39,C41,C42,C43,C44,C45,C46,C47,C48,C49,C50,C51",
+              "Footprint": "Capacitor_SMD:C_0201_0603Metric",
+              "LCSC": "C576431"
+            },
+            {
+              "Comment": "1u",
+              "Designator": "C22,C26",
+              "Footprint": "Capacitor_SMD:C_0201_0603Metric",
+              "LCSC": "C76935"
+            },
+            {
+              "Comment": "TPS2553DBVR",
+              "Designator": "U3",
+              "Footprint": "0xcb:SOT95P280X145-6N",
+              "LCSC": "C55266"
+            }
+          ],
+          "separator": ","
+        }
+      ],
+      "analysis_time": "2024-12-10T08:56:48.240172"
+    },
+    {
+      "repo_url": "https://github.com/0xCB-dev/0xCB-Gemini",
+      "bom_count": 1,
+      "patterns": [
+        {
+          "type": "csv",
+          "path": "rev1.0/kikit/prod/bom.csv",
+          "columns": [
+            "Comment",
+            "Designator",
+            "Footprint",
+            "LCSC"
+          ],
+          "row_count": 24,
+          "sample_rows": [
+            {
+              "Comment": "100n",
+              "Designator": "C6,C11,C12,C13,C14,C15,C16,C17,C18,C19,C20",
+              "Footprint": "gemini:C_0201_0603Metric",
+              "LCSC": "C576431"
+            },
+            {
+              "Comment": "RP2040",
+              "Designator": "U4",
+              "Footprint": "gemini:RP2040-QFN-56",
+              "LCSC": "C2040"
+            },
+            {
+              "Comment": "10k",
+              "Designator": "R1,R2,R3,R10,R16",
+              "Footprint": "gemini:R_0201_0603Metric",
+              "LCSC": "C138117"
+            }
+          ],
+          "separator": ","
+        }
+      ],
+      "analysis_time": "2024-12-10T08:56:53.151638"
+    },
+    {
+      "repo_url": "https://github.com/0xCB-dev/0xCB-Helios",
+      "bom_count": 2,
+      "patterns": [
+        {
+          "type": "csv",
+          "path": "rev1.0/kikit/prod/bom.csv",
+          "columns": [
+            "Comment",
+            "Designator",
+            "Footprint",
+            "LCSC"
+          ],
+          "row_count": 24,
+          "sample_rows": [
+            {
+              "Comment": "100n",
+              "Designator": "C6,C11,C12,C13,C14,C15,C16,C17,C18,C19",
+              "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+              "LCSC": "C1525"
+            },
+            {
+              "Comment": "USBLC6-2P6",
+              "Designator": "U1",
+              "Footprint": "Package_TO_SOT_SMD:SOT-666",
+              "LCSC": "C2827693"
+            },
+            {
+              "Comment": "5.1k",
+              "Designator": "R7,R8,R16",
+              "Footprint": "Resistor_SMD:R_0402_1005Metric",
+              "LCSC": "C25905"
+            }
+          ],
+          "separator": ","
+        },
+        {
+          "type": "csv",
+          "path": "rev1.0/kikit/proto/bom.csv",
+          "columns": [
+            "Comment",
+            "Designator",
+            "Footprint",
+            "LCSC"
+          ],
+          "row_count": 24,
+          "sample_rows": [
+            {
+              "Comment": "100n",
+              "Designator": "C6,C11,C12,C13,C14,C15,C16,C17,C18,C19",
+              "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+              "LCSC": "C1525"
+            },
+            {
+              "Comment": "USBLC6-2P6",
+              "Designator": "U1",
+              "Footprint": "Package_TO_SOT_SMD:SOT-666",
+              "LCSC": "C2827693"
+            },
+            {
+              "Comment": "5.1k",
+              "Designator": "R7,R8,R16",
+              "Footprint": "Resistor_SMD:R_0402_1005Metric",
+              "LCSC": "C25905"
+            }
+          ],
+          "separator": ","
+        }
+      ],
+      "analysis_time": "2024-12-10T08:56:59.538375"
+    },
+    {
+      "repo_url": "https://github.com/0xCB-dev/0xcb-micro",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T08:57:03.608074"
+    },
+    {
+      "repo_url": "https://github.com/0xCB-dev/0xCB-Pluto",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T08:57:06.676602"
+    },
+    {
+      "repo_url": "https://github.com/0xCB-dev/0xcb-static",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T08:57:14.638663"
+    },
+    {
+      "repo_url": "https://github.com/sqfmi/HPDL-1414-20x2-ESP32",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T08:57:17.304068"
+    },
+    {
+      "repo_url": "https://github.com/sonosus/3340breakout",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T08:57:21.063059"
+    },
+    {
+      "repo_url": "https://github.com/majaczech/wind-tunnel",
+      "bom_count": 1,
+      "patterns": [
+        {
+          "type": "excel",
+          "path": "BOM/BillofMaterials-Final.xlsx",
+          "columns": [
+            "Designator",
+            "Component",
+            "Number",
+            "Cost per unit  ",
+            "Total cost [\u20ac]",
+            "Source of materials",
+            "Material type",
+            "WWW"
+          ],
+          "format": "xlsx"
+        }
+      ],
+      "analysis_time": "2024-12-10T08:57:25.243073"
+    },
+    {
+      "repo_url": "https://github.com/dilshan/usb2-power-hub",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T08:57:28.876234"
+    },
+    {
+      "repo_url": "https://github.com/dilshan/6ch-af-preamplifier",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T08:57:34.005907"
+    },
+    {
+      "repo_url": "https://github.com/dilshan/6ch-speaker-selector",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T08:57:37.768688"
+    },
+    {
+      "repo_url": "https://github.com/jefftranter/6800",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T08:57:46.445272"
+    },
+    {
+      "repo_url": "https://github.com/Thore-Krug/8ch-level-shifter",
+      "bom_count": 0,
+      "patterns": [],
+      "error": "GitHub API error: 404 {\"message\": \"Not Found\", \"documentation_url\": \"https://docs.github.com/rest/repos/repos#get-a-repository\", \"status\": \"404\"}",
+      "analysis_time": "2024-12-10T08:57:46.826853"
+    },
+    {
+      "repo_url": "https://github.com/URJCMakerGroup/TFG-Cristina-Fernandez",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T08:57:55.063117"
+    },
+    {
+      "repo_url": "https://github.com/sparkfunX/SparkFun_Valve_Control_Shield",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T08:57:57.057151"
+    },
+    {
+      "repo_url": "https://github.com/SiloCityLabs/ac-infinity-esp32",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T08:58:02.330367"
+    },
+    {
+      "repo_url": "https://github.com/greatfet-hardware/azalea",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T08:58:04.403168"
+    },
+    {
+      "repo_url": "https://github.com/mossmann/hackrf",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T08:58:31.039373"
+    },
+    {
+      "repo_url": "https://github.com/watterott/ACS72X-Breakout",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T08:58:33.085192"
+    },
+    {
+      "repo_url": "https://github.com/dereulenspiegel/cbpi_hat",
+      "bom_count": 1,
+      "patterns": [
+        {
+          "type": "csv",
+          "path": "production_files/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 37,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "MM1Z9V1",
+              "Designator": "D10",
+              "Footprint": "SOD-123_L2.7-W1.6-LS3.7-RD",
+              "Quantity": 1,
+              "Manufacturer Part": "MM1Z9V1",
+              "Manufacturer": "ST(\u5148\u79d1)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C87636",
+              "Price": 0.002
+            },
+            {
+              "ID": 2,
+              "Name": "HY15P03C2",
+              "Designator": "Q22",
+              "Footprint": "DFN-8_L5.9-W5.2-P1.27-LS6.2-BL",
+              "Quantity": 1,
+              "Manufacturer Part": "HY15P03C2",
+              "Manufacturer": "HUAYI(\u534e\u7fbf\u5fae)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C123687",
+              "Price": NaN
+            },
+            {
+              "ID": 3,
+              "Name": "100\u03a9",
+              "Designator": "R37",
+              "Footprint": "R0402",
+              "Quantity": 1,
+              "Manufacturer Part": "0402WGF1000TCE",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C25076",
+              "Price": NaN
+            }
+          ],
+          "separator": "\t"
+        }
+      ],
+      "analysis_time": "2024-12-10T08:58:40.736903"
+    },
+    {
+      "repo_url": "https://github.com/AteamVentures/CREATABLE_D3",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T08:58:51.897546"
+    },
+    {
+      "repo_url": "https://github.com/creatoreng/Creator-Transfer-Chamber",
+      "bom_count": 2,
+      "patterns": [
+        {
+          "type": "excel",
+          "path": "03 BOM/Barrier Conveyor BOM.xlsx",
+          "columns": [],
+          "format": "xlsx"
+        },
+        {
+          "type": "excel",
+          "path": "03 BOM/Fan - Electrical BOM.xlsx",
+          "columns": [
+            "Fan Control Board Bill of Materials"
+          ],
+          "format": "xlsx"
+        }
+      ],
+      "analysis_time": "2024-12-10T08:58:59.976897"
+    },
+    {
+      "repo_url": "https://github.com/HiMinds/himinds-boosting-innovation-embedded-env-sensor-hw",
+      "bom_count": 1,
+      "patterns": [
+        {
+          "type": "excel",
+          "path": "hm-env-sensor-bom_rev_B.xls",
+          "columns": [
+            "Id",
+            "Designator",
+            "Package",
+            "Quantity",
+            "Designation"
+          ],
+          "format": "xls"
+        }
+      ],
+      "analysis_time": "2024-12-10T08:59:03.901331"
+    },
+    {
+      "repo_url": "https://github.com/adafruit/RP2040-Based-Tester-Brains-PCB",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T08:59:06.735701"
+    },
+    {
+      "repo_url": "https://github.com/ayesha-sparkletronics/PicoDaisy",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T08:59:09.402402"
+    },
+    {
+      "repo_url": "https://github.com/tinyvision-ai-inc/pico-ice",
+      "bom_count": 2,
+      "patterns": [
+        {
+          "type": "csv",
+          "path": "Board/Rev1/bom/BoM_pico-ice.csv",
+          "columns": [
+            "Item",
+            "Qty",
+            "Designator",
+            "Value",
+            "Comment",
+            "MPN",
+            "Footprint",
+            "Datasheet",
+            "Unnamed: 8",
+            "Unnamed: 9",
+            "Manufacturer"
+          ],
+          "row_count": 27,
+          "sample_rows": [
+            {
+              "Item": 1,
+              "Qty": 2,
+              "Designator": "C1, C2",
+              "Value": "27p",
+              "Comment": "CAP CER 27PF 50V C0G/NP0 0402",
+              "MPN": "GCM1555C1H270JA16D",
+              "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+              "Datasheet": "~",
+              "Unnamed: 8": NaN,
+              "Unnamed: 9": NaN,
+              "Manufacturer": "Murata Electronics"
+            },
+            {
+              "Item": 2,
+              "Qty": 13,
+              "Designator": "C3, C6, C7, C9, C11, C13, C22, C25, C30, C31, C32, C34, C37",
+              "Value": "4.7u",
+              "Comment": "CAP CER 4.7UF 6.3V X5R 0402",
+              "MPN": "GRM155R60J475ME87D",
+              "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+              "Datasheet": NaN,
+              "Unnamed: 8": NaN,
+              "Unnamed: 9": NaN,
+              "Manufacturer": "Murata Electronics"
+            },
+            {
+              "Item": 3,
+              "Qty": 19,
+              "Designator": "C4, C5, C8, C10, C12, C15, C16, C17, C18, C19, C21, C24, C26, C27, C28, C29, C33, C36, C42",
+              "Value": "0.1u",
+              "Comment": "CAP CER 0.1UF 16V X7R 0402",
+              "MPN": "GRM155R71C104KA88J",
+              "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+              "Datasheet": NaN,
+              "Unnamed: 8": NaN,
+              "Unnamed: 9": NaN,
+              "Manufacturer": "Murata Electronics"
+            }
+          ],
+          "separator": ","
+        },
+        {
+          "type": "csv",
+          "path": "Board/Rev0/Output Files/Assembly/pico-ice_bom_0.3.csv",
+          "columns": [
+            "Component",
+            "Description",
+            "Part",
+            "References",
+            "Value",
+            "Footprint",
+            "Quantity Per PCB",
+            "Datasheet",
+            "MPN",
+            "Manufacturer",
+            "Supplier",
+            "Digi-Key Part Number",
+            "Comment"
+          ],
+          "row_count": 37,
+          "sample_rows": [
+            {
+              "Component": "1",
+              "Description": "Unpolarized capacitor",
+              "Part": "C",
+              "References": "C1 C2",
+              "Value": "27p",
+              "Footprint": "C_0402_1005Metric",
+              "Quantity Per PCB": 2.0,
+              "Datasheet": "~",
+              "MPN": "GCM1555C1H270JA16D",
+              "Manufacturer": "Murata Electronics",
+              "Supplier": "LCSC",
+              "Digi-Key Part Number": NaN,
+              "Comment": NaN
+            },
+            {
+              "Component": "2",
+              "Description": NaN,
+              "Part": "Device_C",
+              "References": "C4 C5 C8 C10 C12 C14 C15 C16 C17 C18 C19 C20 C21 C23 C24 C26 C27 C28 C29 C33 C35 C38 C39 C40 C41 C42",
+              "Value": "0.1u",
+              "Footprint": "C_0402_1005Metric",
+              "Quantity Per PCB": 26.0,
+              "Datasheet": NaN,
+              "MPN": "GRM155R71C104KA88J",
+              "Manufacturer": "Murata Electronics",
+              "Supplier": "Mouser",
+              "Digi-Key Part Number": NaN,
+              "Comment": NaN
+            },
+            {
+              "Component": "3",
+              "Description": NaN,
+              "Part": "Device_C",
+              "References": "C3 C6 C7 C9 C11 C13 C22 C25 C30 C31 C32 C34 C43",
+              "Value": "4.7u",
+              "Footprint": "C_0402_1005Metric",
+              "Quantity Per PCB": 13.0,
+              "Datasheet": NaN,
+              "MPN": "GRM155R60J475ME87D",
+              "Manufacturer": "Murata Electronics",
+              "Supplier": "LCSC",
+              "Digi-Key Part Number": NaN,
+              "Comment": NaN
+            }
+          ],
+          "separator": ","
+        }
+      ],
+      "analysis_time": "2024-12-10T08:59:39.025429"
+    },
+    {
+      "repo_url": "https://github.com/ifilot/pico-sst39sf0x0-programmer",
+      "bom_count": 1,
+      "patterns": [
+        {
+          "type": "csv",
+          "path": "pcb/pico-sst39sf0x0-pcb/pico-sst39sf0x0-pcb-bottom-bom.csv",
+          "columns": [
+            "Comment",
+            "Designator",
+            "Footprint",
+            "LCSC Part #"
+          ],
+          "row_count": 7,
+          "sample_rows": [
+            {
+              "Comment": ".1uF Unpolarized capacitor",
+              "Designator": "C1,C2,C3,C4",
+              "Footprint": "C_0805_2012Metric",
+              "LCSC Part #": "C1790"
+            },
+            {
+              "Comment": "M7 Diode, small symbol",
+              "Designator": "D1",
+              "Footprint": "D_SMA",
+              "LCSC Part #": "C95872"
+            },
+            {
+              "Comment": "BSS138 50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23",
+              "Designator": "Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9,Q10,Q11,Q12,Q13,Q14,Q15,Q16,Q17,Q18,Q19,Q20,Q21,Q22,Q23,Q24",
+              "Footprint": "SOT-23",
+              "LCSC Part #": "C78284"
+            }
+          ],
+          "separator": ","
+        }
+      ],
+      "analysis_time": "2024-12-10T08:59:56.365546"
+    },
+    {
+      "repo_url": "https://github.com/mfolejewski/PicoBerry",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:00:00.785406"
+    },
+    {
+      "repo_url": "https://github.com/bigtreetech/Tango-3D-Printer-Motherboard",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:00:03.898094"
+    },
+    {
+      "repo_url": "https://github.com/URJCMakerGroup/TectOH",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:00:22.331997"
+    },
+    {
+      "repo_url": "https://github.com/gpask/PiSpy",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:00:29.750909"
+    },
+    {
+      "repo_url": "https://github.com/Diodes-Delight/Piunora-Hardware",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:00:32.704853"
+    },
+    {
+      "repo_url": "https://github.com/connornishijima/Pixie_Chroma",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:01:01.821744"
+    },
+    {
+      "repo_url": "https://github.com/ManiacalLabs/Platypus",
+      "bom_count": 4,
+      "patterns": [
+        {
+          "type": "csv",
+          "path": "Platypus_Mk1/Fab/BOM.csv",
+          "columns": [
+            "Part/Designator",
+            "Manufacture Part Number/Seeed SKU",
+            "Quantity"
+          ],
+          "row_count": 14,
+          "sample_rows": [
+            {
+              "Part/Designator": "R3,R4,R5",
+              "Manufacture Part Number/Seeed SKU": "301010298",
+              "Quantity": 3
+            },
+            {
+              "Part/Designator": "R1,R2",
+              "Manufacture Part Number/Seeed SKU": "301010299",
+              "Quantity": 2
+            },
+            {
+              "Part/Designator": "C6,C11",
+              "Manufacture Part Number/Seeed SKU": "302010139",
+              "Quantity": 2
+            }
+          ],
+          "separator": ","
+        },
+        {
+          "type": "csv",
+          "path": "Platypus_Mk1/Fab/BOM_with_TH_OPL_Parts.csv",
+          "columns": [
+            "Part/Designator",
+            "Manufacture Part Number/Seeed SKU",
+            "Quantity"
+          ],
+          "row_count": 21,
+          "sample_rows": [
+            {
+              "Part/Designator": "R3,R4,R5",
+              "Manufacture Part Number/Seeed SKU": "301010298",
+              "Quantity": 3
+            },
+            {
+              "Part/Designator": "R1,R2",
+              "Manufacture Part Number/Seeed SKU": "301010299",
+              "Quantity": 2
+            },
+            {
+              "Part/Designator": "C6,C11",
+              "Manufacture Part Number/Seeed SKU": "302010139",
+              "Quantity": 2
+            }
+          ],
+          "separator": ","
+        },
+        {
+          "type": "csv",
+          "path": "Platypus_Mk1/Fab/BOM_with_TH_Parts.csv",
+          "columns": [
+            "Part/Designator",
+            "Manufacture Part Number/Seeed SKU",
+            "Quantity"
+          ],
+          "row_count": 23,
+          "sample_rows": [
+            {
+              "Part/Designator": "R3,R4,R5",
+              "Manufacture Part Number/Seeed SKU": "301010298",
+              "Quantity": 3
+            },
+            {
+              "Part/Designator": "R1,R2",
+              "Manufacture Part Number/Seeed SKU": "301010299",
+              "Quantity": 2
+            },
+            {
+              "Part/Designator": "C6,C11",
+              "Manufacture Part Number/Seeed SKU": "302010139",
+              "Quantity": 2
+            }
+          ],
+          "separator": ","
+        },
+        {
+          "type": "csv",
+          "path": "Platypus_Mk1/Fab/Platypus_TH_Parts_OPL.csv",
+          "columns": [
+            "Part/Designator",
+            "Manufacture Part Number/Seeed SKU",
+            "Quantity"
+          ],
+          "row_count": 7,
+          "sample_rows": [
+            {
+              "Part/Designator": "J4,J5",
+              "Manufacture Part Number/Seeed SKU": "320020016",
+              "Quantity": 2
+            },
+            {
+              "Part/Designator": "J12,J14",
+              "Manufacture Part Number/Seeed SKU": "320020017",
+              "Quantity": 2
+            },
+            {
+              "Part/Designator": "J10",
+              "Manufacture Part Number/Seeed SKU": "320020077",
+              "Quantity": 1
+            }
+          ],
+          "separator": ","
+        }
+      ],
+      "analysis_time": "2024-12-10T09:01:16.722690"
+    },
+    {
+      "repo_url": "https://github.com/nicolacimmino/PLC-14500",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:01:43.613052"
+    },
+    {
+      "repo_url": "https://github.com/ThunderFly-aerospace/TFHT01",
+      "bom_count": 2,
+      "patterns": [
+        {
+          "type": "csv",
+          "path": "hw/cam_profi/assembly/TFHT01-bom.csv",
+          "columns": [
+            "Component",
+            "Description",
+            "Part",
+            "References",
+            "Value",
+            "Footprint",
+            "Quantity Per PCB",
+            "Datasheet",
+            "ust_id"
+          ],
+          "row_count": 14,
+          "sample_rows": [
+            {
+              "Component": 1,
+              "Description": "Unpolarized capacitor",
+              "Part": "C",
+              "References": "C4C5",
+              "Value": "100nF",
+              "Footprint": "SMD-0603",
+              "Quantity Per PCB": 2,
+              "Datasheet": "~",
+              "ust_id": "5c70984812875079b91f8bf2"
+            },
+            {
+              "Component": 2,
+              "Description": "Unpolarized capacitor",
+              "Part": "C",
+              "References": "C1",
+              "Value": "1uF",
+              "Footprint": "SMD-0603",
+              "Quantity Per PCB": 1,
+              "Datasheet": "~",
+              "ust_id": "5c70984812875079b91f8bc2"
+            },
+            {
+              "Component": 3,
+              "Description": "Unpolarized capacitor",
+              "Part": "C",
+              "References": "C3",
+              "Value": "10uF",
+              "Footprint": "SMD-0805",
+              "Quantity Per PCB": 1,
+              "Datasheet": "~",
+              "ust_id": "5c70984812875079b91f8bbd"
+            }
+          ],
+          "separator": ","
+        },
+        {
+          "type": "csv",
+          "path": "hw/cam_profi/assembly/TFHT01-bom_nogroup.csv",
+          "columns": [
+            "Component",
+            "Description",
+            "Part",
+            "References",
+            "Value",
+            "Footprint",
+            "Quantity Per PCB",
+            "Datasheet",
+            "ust_id"
+          ],
+          "row_count": 14,
+          "sample_rows": [
+            {
+              "Component": 1,
+              "Description": "Unpolarized capacitor",
+              "Part": "C",
+              "References": "C4C5",
+              "Value": "100nF",
+              "Footprint": "SMD-0603",
+              "Quantity Per PCB": 2,
+              "Datasheet": "~",
+              "ust_id": "5c70984812875079b91f8bf2"
+            },
+            {
+              "Component": 2,
+              "Description": "Unpolarized capacitor",
+              "Part": "C",
+              "References": "C1",
+              "Value": "1uF",
+              "Footprint": "SMD-0603",
+              "Quantity Per PCB": 1,
+              "Datasheet": "~",
+              "ust_id": "5c70984812875079b91f8bc2"
+            },
+            {
+              "Component": 3,
+              "Description": "Unpolarized capacitor",
+              "Part": "C",
+              "References": "C3",
+              "Value": "10uF",
+              "Footprint": "SMD-0805",
+              "Quantity Per PCB": 1,
+              "Datasheet": "~",
+              "ust_id": "5c70984812875079b91f8bbd"
+            }
+          ],
+          "separator": ","
+        }
+      ],
+      "analysis_time": "2024-12-10T09:02:07.031276"
+    },
+    {
+      "repo_url": "https://github.com/fm4dd/pmod-bme280",
+      "bom_count": 1,
+      "patterns": [
+        {
+          "type": "excel",
+          "path": "20220624-bme280-jlcpcb-smd-bom.xlsx",
+          "columns": [
+            "Comment",
+            "Designator",
+            "Footprint",
+            "LCSC Part #\uff08optional\uff09"
+          ],
+          "format": "xlsx"
+        }
+      ],
+      "analysis_time": "2024-12-10T09:02:10.151458"
+    },
+    {
+      "repo_url": "https://github.com/fm4dd/pmod-crypto",
+      "bom_count": 1,
+      "patterns": [
+        {
+          "type": "excel",
+          "path": "20220624-crypto-jlcpcb-smd-bom.xlsx",
+          "columns": [
+            "Comment",
+            "Designator",
+            "Footprint",
+            "LCSC Part #\uff08optional\uff09"
+          ],
+          "format": "xlsx"
+        }
+      ],
+      "analysis_time": "2024-12-10T09:02:13.352860"
+    },
+    {
+      "repo_url": "https://github.com/fm4dd/pmod-i2c24io",
+      "bom_count": 3,
+      "patterns": [
+        {
+          "type": "csv",
+          "path": "fabfiles/t6-v10/20210821-pmod-i2c24io-jlcpcb-bom-v10.csv",
+          "columns": [
+            "Comment",
+            "Designator",
+            "Package",
+            "LCSC Part"
+          ],
+          "row_count": 7,
+          "sample_rows": [
+            {
+              "Comment": "0402WGF4700TCE",
+              "Designator": "R24,R23,R22,R21,R20,R19,R18,R17,R16,R15,R14,R13,R12,R11,R10,R9,R8,R7,R6,R5,R4,R3,R2,R1",
+              "Package": "Resistor_SMD:R_0402_1005Metric",
+              "LCSC Part": "C25117"
+            },
+            {
+              "Comment": "TCA6424ARGJR",
+              "Designator": "U1",
+              "Package": "UQFN-32-1EP_5x5mm_ThermalVias",
+              "LCSC Part": "C80692"
+            },
+            {
+              "Comment": "TJ-S1005SW4TGLC0A-A5",
+              "Designator": "D24,D23,D22,D21,D20,D19,D18,D17,D16,D15,D14,D13,D12,D11,D10,D9,D8,D7,D6,D5,D4,D3,D2,D1",
+              "Package": "LED_SMD:LED_0402_1005Metric",
+              "LCSC Part": "C273599"
+            }
+          ],
+          "separator": ","
+        },
+        {
+          "type": "csv",
+          "path": "fabfiles/t6-v11/20210919-pmod-i2c24io-jlcpcb-bom-v11.csv",
+          "columns": [
+            "Comment",
+            "Designator",
+            "Package",
+            "LCSC Part"
+          ],
+          "row_count": 7,
+          "sample_rows": [
+            {
+              "Comment": "0402WGF4700TCE",
+              "Designator": "R24,R23,R22,R21,R20,R19,R18,R17,R16,R15,R14,R13,R12,R11,R10,R9,R8,R7,R6,R5,R4,R3,R2,R1",
+              "Package": "Resistor_SMD:R_0402_1005Metric",
+              "LCSC Part": "C25117"
+            },
+            {
+              "Comment": "TCA6424ARGJR",
+              "Designator": "U1",
+              "Package": "UQFN-32-1EP_5x5mm_ThermalVias",
+              "LCSC Part": "C80692"
+            },
+            {
+              "Comment": "TJ-S1005SW4TGLC0A-A5",
+              "Designator": "D24,D23,D22,D21,D20,D19,D18,D17,D16,D15,D14,D13,D12,D11,D10,D9,D8,D7,D6,D5,D4,D3,D2,D1",
+              "Package": "LED_SMD:LED_0402_1005Metric",
+              "LCSC Part": "C273599"
+            }
+          ],
+          "separator": ","
+        },
+        {
+          "type": "csv",
+          "path": "fabfiles/t6a-v11/20210919-pmod-i2c24io-t6a-bom-v11.csv",
+          "columns": [
+            "Comment",
+            "Designator",
+            "Package",
+            "LCSC Part"
+          ],
+          "row_count": 7,
+          "sample_rows": [
+            {
+              "Comment": "0402WGF4700TCE",
+              "Designator": "R24,R23,R22,R21,R20,R19,R18,R17,R16,R15,R14,R13,R12,R11,R10,R9,R8,R7,R6,R5,R4,R3,R2,R1",
+              "Package": "Resistor_SMD:R_0402_1005Metric",
+              "LCSC Part": "C25117"
+            },
+            {
+              "Comment": "TCA6424ARGJR",
+              "Designator": "U1",
+              "Package": "UQFN-32-1EP_5x5mm_ThermalVias",
+              "LCSC Part": "C80692"
+            },
+            {
+              "Comment": "TJ-S1005SW4TGLC0A-A5",
+              "Designator": "D24,D23,D22,D21,D20,D19,D18,D17,D16,D15,D14,D13,D12,D11,D10,D9,D8,D7,D6,D5,D4,D3,D2,D1",
+              "Package": "LED_SMD:LED_0402_1005Metric",
+              "LCSC Part": "C273599"
+            }
+          ],
+          "separator": ","
+        }
+      ],
+      "analysis_time": "2024-12-10T09:02:25.644488"
+    },
+    {
+      "repo_url": "https://github.com/fm4dd/pmod2rpi",
+      "bom_count": 1,
+      "patterns": [
+        {
+          "type": "csv",
+          "path": "release/v10/20210821-pmod2rpi-jlcpcb-bom-v10.csv",
+          "columns": [
+            "Comment",
+            "Designator",
+            "Footprint",
+            "LCSC Part"
+          ],
+          "row_count": 8,
+          "sample_rows": [
+            {
+              "Comment": "CAT24C32WI-GT3",
+              "Designator": "U1",
+              "Footprint": "SOIC-8_3.9x4.9mm_P1.27mm",
+              "LCSC Part": "C81193"
+            },
+            {
+              "Comment": "0603WAF3901T5E",
+              "Designator": "R2,R3",
+              "Footprint": "Resistor_SMD:R_0603_1608Metric",
+              "LCSC Part": "C23018"
+            },
+            {
+              "Comment": "PI5A100QEX",
+              "Designator": "U3",
+              "Footprint": "QSOP-16_3.9x4.9mm_P0.635mm",
+              "LCSC Part": "C526719"
+            }
+          ],
+          "separator": ","
+        }
+      ],
+      "analysis_time": "2024-12-10T09:02:35.468519"
+    },
+    {
+      "repo_url": "https://github.com/dTOOR/TheCyrclePhone2G",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:02:40.386186"
+    },
+    {
+      "repo_url": "https://github.com/dTOOR/TheCyrclePhone4G",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:02:55.129217"
+    },
+    {
+      "repo_url": "https://github.com/CohenLabPrinceton/pvp",
+      "bom_count": 15,
+      "patterns": [
+        {
+          "type": "csv",
+          "path": "docs/csv/actuator_pcb_bom.csv",
+          "columns": [
+            "Ref",
+            "Part",
+            "Purpose"
+          ],
+          "row_count": 10,
+          "sample_rows": [
+            {
+              "Ref": "J2",
+              "Part": "2-pin screw terminal, 5.08 mm pitch, PCB mount",
+              "Purpose": "Connects to 24V supply"
+            },
+            {
+              "Ref": "J3",
+              "Part": "2-pin screw terminal, 5.08 mm pitch, PCB mount",
+              "Purpose": "Connects to on/off expiratory valve"
+            },
+            {
+              "Ref": "J4",
+              "Part": "2-pin screw terminal, 5.08 mm pitch, PCB mount",
+              "Purpose": "Connects to inspiratory valve, driven by PWM"
+            }
+          ],
+          "separator": ","
+        },
+        {
+          "type": "csv",
+          "path": "docs/csv/powerio_bom.csv",
+          "columns": [
+            "Part",
+            "Description"
+          ],
+          "row_count": 11,
+          "sample_rows": [
+            {
+              "Part": "Meanwell 24 V DC Power Supply",
+              "Description": "DIN Rail Power Supplies 150W 24V 5A EN55022 Class B"
+            },
+            {
+              "Part": "Raspberry Pi",
+              "Description": "Raspberry Pi- Model B-1 (1GB RAM)"
+            },
+            {
+              "Part": "USB-C Charger/cable",
+              "Description": "To power the RPi"
+            }
+          ],
+          "separator": ","
+        },
+        {
+          "type": "csv",
+          "path": "docs/csv/sensor_pcb_bom.csv",
+          "columns": [
+            "Ref",
+            "Part",
+            "Purpose"
+          ],
+          "row_count": 13,
+          "sample_rows": [
+            {
+              "Ref": "J1",
+              "Part": "40-pin stackable RPi header",
+              "Purpose": "Connects board to RPi"
+            },
+            {
+              "Ref": "J2",
+              "Part": "4-pin 0.1\" header",
+              "Purpose": "I2C connector if desired"
+            },
+            {
+              "Ref": "J3",
+              "Part": "2-pin 0.1\" header",
+              "Purpose": "Connects ALRT pin from ADS1115 to RPi if needed"
+            }
+          ],
+          "separator": ","
+        },
+        {
+          "type": "csv",
+          "path": "_docs/assets/csv/10_27_2020_bom.csv",
+          "columns": [
+            "Component",
+            "Description",
+            "McMaster Part # (if applicable)",
+            "Category",
+            "Unit Qty",
+            "Pkg. Qty",
+            "Bulk Qty",
+            "Bulk Parts Cost",
+            "Unit Cost",
+            "Subtotal (Bulk Parts Cost) ",
+            "Subtotal (Unit Parts Cost)",
+            "Sourcing Link",
+            "Unnamed: 12",
+            "Unnamed: 13",
+            "Unnamed: 14",
+            "Unnamed: 15",
+            "Unnamed: 16",
+            "Unnamed: 17",
+            "Unnamed: 18",
+            "Unnamed: 19",
+            "Unnamed: 20",
+            "Unnamed: 21",
+            "Unnamed: 22",
+            "Unnamed: 23",
+            "Unnamed: 24",
+            "Unnamed: 25",
+            "Unnamed: 26",
+            "Unnamed: 27",
+            "Unnamed: 28",
+            "Unnamed: 29",
+            "Unnamed: 30",
+            "Unnamed: 31",
+            "Unnamed: 32"
+          ],
+          "row_count": 109,
+          "sample_rows": [
+            {
+              "Component": NaN,
+              "Description": NaN,
+              "McMaster Part # (if applicable)": NaN,
+              "Category": NaN,
+              "Unit Qty": NaN,
+              "Pkg. Qty": NaN,
+              "Bulk Qty": NaN,
+              "Bulk Parts Cost": NaN,
+              "Unit Cost": NaN,
+              "Subtotal (Bulk Parts Cost) ": NaN,
+              "Subtotal (Unit Parts Cost)": NaN,
+              "Sourcing Link": NaN,
+              "Unnamed: 12": NaN,
+              "Unnamed: 13": NaN,
+              "Unnamed: 14": NaN,
+              "Unnamed: 15": NaN,
+              "Unnamed: 16": NaN,
+              "Unnamed: 17": NaN,
+              "Unnamed: 18": NaN,
+              "Unnamed: 19": NaN,
+              "Unnamed: 20": NaN,
+              "Unnamed: 21": NaN,
+              "Unnamed: 22": NaN,
+              "Unnamed: 23": NaN,
+              "Unnamed: 24": NaN,
+              "Unnamed: 25": NaN,
+              "Unnamed: 26": NaN,
+              "Unnamed: 27": NaN,
+              "Unnamed: 28": NaN,
+              "Unnamed: 29": NaN,
+              "Unnamed: 30": NaN,
+              "Unnamed: 31": NaN,
+              "Unnamed: 32": NaN
+            },
+            {
+              "Component": "I/O ",
+              "Description": NaN,
+              "McMaster Part # (if applicable)": NaN,
+              "Category": NaN,
+              "Unit Qty": NaN,
+              "Pkg. Qty": NaN,
+              "Bulk Qty": NaN,
+              "Bulk Parts Cost": NaN,
+              "Unit Cost": NaN,
+              "Subtotal (Bulk Parts Cost) ": NaN,
+              "Subtotal (Unit Parts Cost)": NaN,
+              "Sourcing Link": NaN,
+              "Unnamed: 12": NaN,
+              "Unnamed: 13": NaN,
+              "Unnamed: 14": NaN,
+              "Unnamed: 15": NaN,
+              "Unnamed: 16": NaN,
+              "Unnamed: 17": NaN,
+              "Unnamed: 18": NaN,
+              "Unnamed: 19": NaN,
+              "Unnamed: 20": NaN,
+              "Unnamed: 21": NaN,
+              "Unnamed: 22": NaN,
+              "Unnamed: 23": NaN,
+              "Unnamed: 24": NaN,
+              "Unnamed: 25": NaN,
+              "Unnamed: 26": NaN,
+              "Unnamed: 27": NaN,
+              "Unnamed: 28": NaN,
+              "Unnamed: 29": NaN,
+              "Unnamed: 30": NaN,
+              "Unnamed: 31": NaN,
+              "Unnamed: 32": NaN
+            },
+            {
+              "Component": "Raspberry Pi",
+              "Description": "Raspberry Pi- Model B-1 (1GB RAM)",
+              "McMaster Part # (if applicable)": NaN,
+              "Category": "Compute",
+              "Unit Qty": "1",
+              "Pkg. Qty": "1",
+              "Bulk Qty": "1",
+              "Bulk Parts Cost": "$53.00 ",
+              "Unit Cost": "$53.00 ",
+              "Subtotal (Bulk Parts Cost) ": "$53.00 ",
+              "Subtotal (Unit Parts Cost)": "$53.00 ",
+              "Sourcing Link": "https://www.mouser.com/ProductDetail/Raspberry-Pi/RPI4-MODBP-2GB-BULK?qs=sGAEpiMZZMspCjQQiuQ1fFuhMF5SnQS%252Ba2qMvWLE7K2IHh0t%252BecCsw%3D%3D",
+              "Unnamed: 12": NaN,
+              "Unnamed: 13": NaN,
+              "Unnamed: 14": NaN,
+              "Unnamed: 15": NaN,
+              "Unnamed: 16": NaN,
+              "Unnamed: 17": NaN,
+              "Unnamed: 18": NaN,
+              "Unnamed: 19": NaN,
+              "Unnamed: 20": NaN,
+              "Unnamed: 21": NaN,
+              "Unnamed: 22": NaN,
+              "Unnamed: 23": NaN,
+              "Unnamed: 24": NaN,
+              "Unnamed: 25": NaN,
+              "Unnamed: 26": NaN,
+              "Unnamed: 27": NaN,
+              "Unnamed: 28": NaN,
+              "Unnamed: 29": NaN,
+              "Unnamed: 30": NaN,
+              "Unnamed: 31": NaN,
+              "Unnamed: 32": NaN
+            }
+          ],
+          "separator": ","
+        },
+        {
+          "type": "csv",
+          "path": "_docs/assets/csv/10_27_2020_bom_airway.csv",
+          "columns": [
+            "Component",
+            "Subtotal",
+            "Example Sourcing Link"
+          ],
+          "row_count": 31,
+          "sample_rows": [
+            {
+              "Component": "Oxygen DISS to 3/8\" NPT Adapter",
+              "Subtotal": "$10.00",
+              "Example Sourcing Link": "www.mcmaster.com/2633N11/"
+            },
+            {
+              "Component": "Inlet manifold ",
+              "Subtotal": "$24.56 ",
+              "Example Sourcing Link": "https://www.mcmaster.com/1023N15/"
+            },
+            {
+              "Component": "1/4\" NPT Connector (male/male)",
+              "Subtotal": "$3.89 ",
+              "Example Sourcing Link": "https://www.mcmaster.com/1455N133/"
+            }
+          ],
+          "separator": ","
+        },
+        {
+          "type": "csv",
+          "path": "_docs/assets/csv/10_27_2020_bom_electronics.csv",
+          "columns": [
+            "Component",
+            "Subtotal",
+            "Example Sourcing Link",
+            "Unnamed: 3"
+          ],
+          "row_count": 27,
+          "sample_rows": [
+            {
+              "Component": "Standoffs",
+              "Subtotal": "$3.76 ",
+              "Example Sourcing Link": "https://www.mouser.com/ProductDetail/Keystone-Electronics/24424?qs=%2Fha2pyFadujGjYnOBX3ZIG5%252BNlfnctDXUaVF01IeI1E%3D",
+              "Unnamed: 3": NaN
+            },
+            {
+              "Component": "Meanwell DC Power Supply",
+              "Subtotal": "$30.66 ",
+              "Example Sourcing Link": "https://www.mouser.com/ProductDetail/MEAN-WELL/NDR-120-24?qs=sGAEpiMZZMvkjJSSRowFE%252BMaPtHpNQit89EjeOStv9CBsXX2JvUmCQ%3D%3D",
+              "Unnamed: 3": NaN
+            },
+            {
+              "Component": "DIN Rail",
+              "Subtotal": "$7.74 ",
+              "Example Sourcing Link": "https://www.mcmaster.com/8961K17/",
+              "Unnamed: 3": NaN
+            }
+          ],
+          "separator": ","
+        },
+        {
+          "type": "csv",
+          "path": "_docs/assets/csv/10_27_2020_bom_etc.csv",
+          "columns": [
+            "Component",
+            "Subtotal",
+            "Example Sourcing Link",
+            "Unnamed: 3"
+          ],
+          "row_count": 4,
+          "sample_rows": [
+            {
+              "Component": "PETG for 3d printing",
+              "Subtotal": "$30.00 ",
+              "Example Sourcing Link": NaN,
+              "Unnamed: 3": NaN
+            },
+            {
+              "Component": "Commercial PEEP valves ",
+              "Subtotal": NaN,
+              "Example Sourcing Link": NaN,
+              "Unnamed: 3": NaN
+            },
+            {
+              "Component": "Adult Test Lung",
+              "Subtotal": NaN,
+              "Example Sourcing Link": "https://www.ebay.com/itm/Adult-Test-Lung-LNG600P-Newport-Medical-Instruments-a-division-of-Covidien/264679192553?hash=item3da01bf7e9:g:9FEAAOSw~4hbtoaY&fbclid=IwAR35qedvGn5JODcB-F5Kurw0ZH11KOdH6UpmUypnj2lWZcv5GzIfVlEDSaw",
+              "Unnamed: 3": NaN
+            }
+          ],
+          "separator": ","
+        },
+        {
+          "type": "csv",
+          "path": "_docs/assets/csv/10_27_2020_bom_io.csv",
+          "columns": [
+            "Component",
+            "Subtotal",
+            "Example Sourcing Link",
+            "Unnamed: 3"
+          ],
+          "row_count": 13,
+          "sample_rows": [
+            {
+              "Component": "Raspberry Pi",
+              "Subtotal": "$53.00 ",
+              "Example Sourcing Link": "https://www.mouser.com/ProductDetail/Raspberry-Pi/RPI4-MODBP-2GB-BULK?qs=sGAEpiMZZMspCjQQiuQ1fFuhMF5SnQS%252Ba2qMvWLE7K2IHh0t%252BecCsw%3D%3D",
+              "Unnamed: 3": NaN
+            },
+            {
+              "Component": "USB-C Charger/cable",
+              "Subtotal": "$9.88 ",
+              "Example Sourcing Link": "https://www.mouser.com/ProductDetail/Seeed-Studio/106990291?qs=sGAEpiMZZMtyU1cDF2RqUIiI0Dr66jYXGV7bLfwtXvw%3D",
+              "Unnamed: 3": NaN
+            },
+            {
+              "Component": "Micro SD Card",
+              "Subtotal": "$8.29 ",
+              "Example Sourcing Link": "https://www.amazon.com/dp/B073JWXGNT/ref=twister_B07B3MFBHY?_encoding=UTF8&th=1",
+              "Unnamed: 3": NaN
+            }
+          ],
+          "separator": ","
+        },
+        {
+          "type": "csv",
+          "path": "_docs/assets/csv/10_27_2020_bom_short.csv",
+          "columns": [
+            "Component",
+            "Subtotal",
+            "Example Sourcing Link",
+            "Unnamed: 3"
+          ],
+          "row_count": 109,
+          "sample_rows": [
+            {
+              "Component": NaN,
+              "Subtotal": NaN,
+              "Example Sourcing Link": NaN,
+              "Unnamed: 3": NaN
+            },
+            {
+              "Component": "I/O ",
+              "Subtotal": NaN,
+              "Example Sourcing Link": NaN,
+              "Unnamed: 3": NaN
+            },
+            {
+              "Component": "Raspberry Pi",
+              "Subtotal": "$53.00 ",
+              "Example Sourcing Link": "https://www.mouser.com/ProductDetail/Raspberry-Pi/RPI4-MODBP-2GB-BULK?qs=sGAEpiMZZMspCjQQiuQ1fFuhMF5SnQS%252Ba2qMvWLE7K2IHh0t%252BecCsw%3D%3D",
+              "Unnamed: 3": NaN
+            }
+          ],
+          "separator": ","
+        },
+        {
+          "type": "csv",
+          "path": "_docs/assets/csv/10_27_2020_bom_structural.csv",
+          "columns": [
+            "Component",
+            "Subtotal",
+            "Example Sourcing Link",
+            "Unnamed: 3"
+          ],
+          "row_count": 15,
+          "sample_rows": [
+            {
+              "Component": "80/20 (x4)",
+              "Subtotal": "$42.28 ",
+              "Example Sourcing Link": "https://www.mcmaster.com/47065T101",
+              "Unnamed: 3": NaN
+            },
+            {
+              "Component": "80/20 gusset bracket (x18)",
+              "Subtotal": "$117.72 ",
+              "Example Sourcing Link": "https://www.mcmaster.com/47065T663",
+              "Unnamed: 3": NaN
+            },
+            {
+              "Component": "80/20 rail (x6)",
+              "Subtotal": "$35.04 ",
+              "Example Sourcing Link": "https://www.mcmaster.com/47065T101",
+              "Unnamed: 3": NaN
+            }
+          ],
+          "separator": ","
+        },
+        {
+          "type": "csv",
+          "path": "_docs/assets/csv/10_27_2020_bom_tools.csv",
+          "columns": [
+            "Component",
+            "Subtotal",
+            "Example Sourcing Link",
+            "Unnamed: 3"
+          ],
+          "row_count": 5,
+          "sample_rows": [
+            {
+              "Component": "M16 tap",
+              "Subtotal": "$47.00 ",
+              "Example Sourcing Link": "https://www.mcmaster.com/26015A236",
+              "Unnamed: 3": NaN
+            },
+            {
+              "Component": "1/4\" NPT tap ",
+              "Subtotal": "$25.00 ",
+              "Example Sourcing Link": "https://www.mcmaster.com/2525A173-2525A173",
+              "Unnamed: 3": NaN
+            },
+            {
+              "Component": "3/4\" NPT tap ",
+              "Subtotal": "$71.00 ",
+              "Example Sourcing Link": "https://www.mcmaster.com/2525A176/",
+              "Unnamed: 3": NaN
+            }
+          ],
+          "separator": ","
+        },
+        {
+          "type": "csv",
+          "path": "_docs/assets/csv/10jul2020_bom.csv",
+          "columns": [
+            "Component",
+            "Description",
+            "McMaster Part # (if applicable)",
+            "Category",
+            "Unit Qty",
+            "Pkg. Qty",
+            "Bulk Qty",
+            "Bulk Parts Cost",
+            "Unit Cost",
+            "Subtotal (Bulk Parts Cost) ",
+            "Subtotal (Unit Parts Cost)",
+            "Sourcing Link",
+            "Unnamed: 12"
+          ],
+          "row_count": 146,
+          "sample_rows": [
+            {
+              "Component": NaN,
+              "Description": NaN,
+              "McMaster Part # (if applicable)": NaN,
+              "Category": NaN,
+              "Unit Qty": NaN,
+              "Pkg. Qty": NaN,
+              "Bulk Qty": NaN,
+              "Bulk Parts Cost": NaN,
+              "Unit Cost": NaN,
+              "Subtotal (Bulk Parts Cost) ": NaN,
+              "Subtotal (Unit Parts Cost)": NaN,
+              "Sourcing Link": NaN,
+              "Unnamed: 12": NaN
+            },
+            {
+              "Component": "I/O ",
+              "Description": NaN,
+              "McMaster Part # (if applicable)": NaN,
+              "Category": NaN,
+              "Unit Qty": NaN,
+              "Pkg. Qty": NaN,
+              "Bulk Qty": NaN,
+              "Bulk Parts Cost": NaN,
+              "Unit Cost": NaN,
+              "Subtotal (Bulk Parts Cost) ": NaN,
+              "Subtotal (Unit Parts Cost)": NaN,
+              "Sourcing Link": NaN,
+              "Unnamed: 12": NaN
+            },
+            {
+              "Component": "Raspberry Pi",
+              "Description": "Raspberry Pi- Model B-1 (1GB RAM)",
+              "McMaster Part # (if applicable)": NaN,
+              "Category": "Compute",
+              "Unit Qty": "1",
+              "Pkg. Qty": "1",
+              "Bulk Qty": "1",
+              "Bulk Parts Cost": "$53.00 ",
+              "Unit Cost": "$53.00 ",
+              "Subtotal (Bulk Parts Cost) ": "$53.00 ",
+              "Subtotal (Unit Parts Cost)": "$53.00 ",
+              "Sourcing Link": "https://www.mouser.com/ProductDetail/Raspberry-Pi/RPI4-MODBP-2GB-BULK?qs=sGAEpiMZZMspCjQQiuQ1fFuhMF5SnQS%252Ba2qMvWLE7K2IHh0t%252BecCsw%3D%3D",
+              "Unnamed: 12": NaN
+            }
+          ],
+          "separator": ","
+        },
+        {
+          "type": "csv",
+          "path": "_docs/assets/csv/actuator_pcb_bom.csv",
+          "columns": [
+            "Ref",
+            "Part",
+            "Purpose"
+          ],
+          "row_count": 10,
+          "sample_rows": [
+            {
+              "Ref": "J2",
+              "Part": "2-pin screw terminal, 5.08 mm pitch, PCB mount",
+              "Purpose": "Connects to 24V supply"
+            },
+            {
+              "Ref": "J3",
+              "Part": "2-pin screw terminal, 5.08 mm pitch, PCB mount",
+              "Purpose": "Connects to on/off expiratory valve"
+            },
+            {
+              "Ref": "J4",
+              "Part": "2-pin screw terminal, 5.08 mm pitch, PCB mount",
+              "Purpose": "Connects to inspiratory valve, driven by PWM"
+            }
+          ],
+          "separator": ","
+        },
+        {
+          "type": "csv",
+          "path": "_docs/assets/csv/powerio_bom.csv",
+          "columns": [
+            "Part",
+            "Description"
+          ],
+          "row_count": 11,
+          "sample_rows": [
+            {
+              "Part": "Meanwell 24 V DC Power Supply",
+              "Description": "DIN Rail Power Supplies 150W 24V 5A EN55022 Class B"
+            },
+            {
+              "Part": "Raspberry Pi",
+              "Description": "Raspberry Pi- Model B-1 (1GB RAM)"
+            },
+            {
+              "Part": "USB-C Charger/cable",
+              "Description": "To power the RPi"
+            }
+          ],
+          "separator": ","
+        },
+        {
+          "type": "csv",
+          "path": "_docs/assets/csv/sensor_pcb_bom.csv",
+          "columns": [
+            "Ref",
+            "Part",
+            "Purpose"
+          ],
+          "row_count": 13,
+          "sample_rows": [
+            {
+              "Ref": "J1",
+              "Part": "40-pin stackable RPi header",
+              "Purpose": "Connects board to RPi"
+            },
+            {
+              "Ref": "J2",
+              "Part": "4-pin 0.1\" header",
+              "Purpose": "I2C connector if desired"
+            },
+            {
+              "Ref": "J3",
+              "Part": "2-pin 0.1\" header",
+              "Purpose": "Connects ALRT pin from ADS1115 to RPi if needed"
+            }
+          ],
+          "separator": ","
+        }
+      ],
+      "analysis_time": "2024-12-10T09:04:24.682687"
+    },
+    {
+      "repo_url": "https://github.com/myklemykle/pocketintegrator-kicad",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:04:31.087323"
+    },
+    {
+      "repo_url": "https://github.com/Transmutable/swan",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:04:32.611698"
+    },
+    {
+      "repo_url": "https://github.com/tanmoydutta/thermalprintercontroller",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:04:34.496545"
+    },
+    {
+      "repo_url": "https://github.com/gamblor21/ThunderBuddy",
+      "bom_count": 1,
+      "patterns": [
+        {
+          "type": "csv",
+          "path": "ThunderBuddy-BOM.csv",
+          "columns": [
+            "Reference",
+            "Value",
+            "Footprint",
+            "Datasheet",
+            "Qty"
+          ],
+          "row_count": 12,
+          "sample_rows": [
+            {
+              "Reference": "C1, C2",
+              "Value": "1uF",
+              "Footprint": "Capacitor_SMD:C_0805_2012Metric",
+              "Datasheet": "~",
+              "Qty": 2
+            },
+            {
+              "Reference": "C3",
+              "Value": "10uF",
+              "Footprint": "Capacitor_SMD:C_0805_2012Metric",
+              "Datasheet": "~",
+              "Qty": 1
+            },
+            {
+              "Reference": "C4",
+              "Value": "680pf",
+              "Footprint": "Capacitor_SMD:C_0805_2012Metric",
+              "Datasheet": "~",
+              "Qty": 1
+            }
+          ],
+          "separator": ","
+        }
+      ],
+      "analysis_time": "2024-12-10T09:04:38.156874"
+    },
+    {
+      "repo_url": "https://github.com/TinyTapeout/tt-demo-pcb",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:04:40.624366"
+    },
+    {
+      "repo_url": "https://github.com/TinyTapeout/mpw-mb1-pcb",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:04:49.858073"
+    },
+    {
+      "repo_url": "https://github.com/New-England-Weather-Balloon-Society/Tiny4FSK",
+      "bom_count": 1,
+      "patterns": [
+        {
+          "type": "csv",
+          "path": "PCB + Schematic/bom.csv",
+          "columns": [
+            "Reference",
+            "Value",
+            "Footprint",
+            "Qty"
+          ],
+          "row_count": 52,
+          "sample_rows": [
+            {
+              "Reference": "AE1",
+              "Value": "GPS ANT",
+              "Footprint": "RF_Antenna_Extended:ANT_1575AT_JOT",
+              "Qty": 1
+            },
+            {
+              "Reference": "AE2",
+              "Value": "ANT",
+              "Footprint": "Antenna:Antenna_Whip",
+              "Qty": 1
+            },
+            {
+              "Reference": "BT1",
+              "Value": "AAA",
+              "Footprint": "BatteryExtended:BAT_BK-82",
+              "Qty": 1
+            }
+          ],
+          "separator": ","
+        }
+      ],
+      "analysis_time": "2024-12-10T09:04:55.995865"
+    },
+    {
+      "repo_url": "https://github.com/teslalab/tl05i",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:05:00.329970"
+    },
+    {
+      "repo_url": "https://github.com/ElectronicCats/TLV493D-Croquette",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:05:02.961203"
+    },
+    {
+      "repo_url": "https://github.com/TomatoCube18/CH552_DevelopmentBoard_2023",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:05:05.236135"
+    },
+    {
+      "repo_url": "https://github.com/TomatoCube18/LED_Trinket_PIC10F202",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:05:08.517875"
+    },
+    {
+      "repo_url": "https://github.com/TomatoCube18/i2c_5chLineSensor",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:05:11.301684"
+    },
+    {
+      "repo_url": "https://github.com/dslik/protonema",
+      "bom_count": 43,
+      "patterns": [
+        {
+          "type": "csv",
+          "path": "baseboards/1522C/1522-0101/V0.1/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 1,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "HDR-TH_6P-P2.54-V-F-R2-C3-S2.54",
+              "Designator": "J5,J2,J1,J4,J3,J6,J8,J7,J9,J10,J12,J11,J13,J14,J16,J15",
+              "Footprint": "HDR-TH_6P-P2.54-V-F-R2-C3-S2.54",
+              "Quantity": 16,
+              "Manufacturer Part": "DS1023-2*3SF11",
+              "Manufacturer": "CONNFLY",
+              "Supplier": "LCSC",
+              "Supplier Part": "C92272",
+              "Price": 0.086
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "baseboards/1522C/1522-0101/latest/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 1,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "HDR-TH_6P-P2.54-V-F-R2-C3-S2.54",
+              "Designator": "J5,J2,J1,J4,J3,J6,J8,J7,J9,J10,J12,J11,J13,J14,J16,J15",
+              "Footprint": "HDR-TH_6P-P2.54-V-F-R2-C3-S2.54",
+              "Quantity": 16,
+              "Manufacturer Part": "DS1023-2*3SF11",
+              "Manufacturer": "CONNFLY",
+              "Supplier": "LCSC",
+              "Supplier Part": "C92272",
+              "Price": 0.086
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1031A/1031-0101/latest/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 9,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "LED-SMD_4P-L2.0-W2.0-BR",
+              "Designator": "D3",
+              "Footprint": "LED-SMD_4P-L2.0-W2.0-BR",
+              "Quantity": 1,
+              "Manufacturer Part": "SK6805-EC20",
+              "Manufacturer": "\u6b27\u601d\u79d1\u5149\u7535",
+              "Supplier": "LCSC",
+              "Supplier Part": "C2890036",
+              "Price": 0.199
+            },
+            {
+              "ID": 2,
+              "Name": "C0603",
+              "Designator": "C1",
+              "Footprint": "C0603",
+              "Quantity": 1,
+              "Manufacturer Part": "CC0603KRX7R9BB104",
+              "Manufacturer": "YAGEO(\u56fd\u5de8)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C14663",
+              "Price": 0.002
+            },
+            {
+              "ID": 3,
+              "Name": "CONN-SMD-3P-P1.00_BM03B-SRSS-TB-LF-SN",
+              "Designator": "J6,J7",
+              "Footprint": "CONN-SMD-3P-P1.00_BM03B-SRSS-TB-LF-SN",
+              "Quantity": 2,
+              "Manufacturer Part": "BM03B-SRSS-TB(LF)(SN)",
+              "Manufacturer": "JST",
+              "Supplier": "LCSC",
+              "Supplier Part": "C160389",
+              "Price": 0.184
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1031A/1031-0101/v1.2/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 9,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "LED-SMD_4P-L2.0-W2.0-BR",
+              "Designator": "D3",
+              "Footprint": "LED-SMD_4P-L2.0-W2.0-BR",
+              "Quantity": 1,
+              "Manufacturer Part": "SK6805-EC20",
+              "Manufacturer": "\u6b27\u601d\u79d1\u5149\u7535",
+              "Supplier": "LCSC",
+              "Supplier Part": "C2890036",
+              "Price": 0.199
+            },
+            {
+              "ID": 2,
+              "Name": "C0603",
+              "Designator": "C1",
+              "Footprint": "C0603",
+              "Quantity": 1,
+              "Manufacturer Part": "CC0603KRX7R9BB104",
+              "Manufacturer": "YAGEO(\u56fd\u5de8)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C14663",
+              "Price": 0.002
+            },
+            {
+              "ID": 3,
+              "Name": "CONN-SMD-3P-P1.00_BM03B-SRSS-TB-LF-SN",
+              "Designator": "J6,J7",
+              "Footprint": "CONN-SMD-3P-P1.00_BM03B-SRSS-TB-LF-SN",
+              "Quantity": 2,
+              "Manufacturer Part": "BM03B-SRSS-TB(LF)(SN)",
+              "Manufacturer": "JST",
+              "Supplier": "LCSC",
+              "Supplier Part": "C160389",
+              "Price": 0.184
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1031A/1031-0102/latest/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 9,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "LED-SMD_4P-L2.0-W2.0-BR",
+              "Designator": "D3",
+              "Footprint": "LED-SMD_4P-L2.0-W2.0-BR",
+              "Quantity": 1,
+              "Manufacturer Part": "SK6805-EC20",
+              "Manufacturer": "\u6b27\u601d\u79d1\u5149\u7535",
+              "Supplier": "LCSC",
+              "Supplier Part": "C2890036",
+              "Price": 0.199
+            },
+            {
+              "ID": 2,
+              "Name": "C0603",
+              "Designator": "C1",
+              "Footprint": "C0603",
+              "Quantity": 1,
+              "Manufacturer Part": "CC0603KRX7R9BB104",
+              "Manufacturer": "YAGEO(\u56fd\u5de8)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C14663",
+              "Price": 0.002
+            },
+            {
+              "ID": 3,
+              "Name": "CONN-SMD-3P-P1.00_BM03B-SRSS-TB-LF-SN",
+              "Designator": "J6,J7",
+              "Footprint": "CONN-SMD-3P-P1.00_BM03B-SRSS-TB-LF-SN",
+              "Quantity": 2,
+              "Manufacturer Part": "BM03B-SRSS-TB(LF)(SN)",
+              "Manufacturer": "JST",
+              "Supplier": "LCSC",
+              "Supplier Part": "C160389",
+              "Price": 0.184
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1031A/1031-0102/v1.2/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 9,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "LED-SMD_4P-L2.0-W2.0-BR",
+              "Designator": "D3",
+              "Footprint": "LED-SMD_4P-L2.0-W2.0-BR",
+              "Quantity": 1,
+              "Manufacturer Part": "SK6805-EC20",
+              "Manufacturer": "\u6b27\u601d\u79d1\u5149\u7535",
+              "Supplier": "LCSC",
+              "Supplier Part": "C2890036",
+              "Price": 0.199
+            },
+            {
+              "ID": 2,
+              "Name": "C0603",
+              "Designator": "C1",
+              "Footprint": "C0603",
+              "Quantity": 1,
+              "Manufacturer Part": "CC0603KRX7R9BB104",
+              "Manufacturer": "YAGEO(\u56fd\u5de8)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C14663",
+              "Price": 0.002
+            },
+            {
+              "ID": 3,
+              "Name": "CONN-SMD-3P-P1.00_BM03B-SRSS-TB-LF-SN",
+              "Designator": "J6,J7",
+              "Footprint": "CONN-SMD-3P-P1.00_BM03B-SRSS-TB-LF-SN",
+              "Quantity": 2,
+              "Manufacturer Part": "BM03B-SRSS-TB(LF)(SN)",
+              "Manufacturer": "JST",
+              "Supplier": "LCSC",
+              "Supplier Part": "C160389",
+              "Price": 0.184
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1039A/1039-0101/V1.0/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 6,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "R0603",
+              "Designator": "R3,R5,R4,R2",
+              "Footprint": "R0603",
+              "Quantity": 4,
+              "Manufacturer Part": "0603WAF1002T5E",
+              "Manufacturer": "UniOhm",
+              "Supplier": "LCSC",
+              "Supplier Part": "C25804",
+              "Price": 0.001
+            },
+            {
+              "ID": 2,
+              "Name": "LED0603-R-RD",
+              "Designator": "D1",
+              "Footprint": "LED0603-R-RD",
+              "Quantity": 1,
+              "Manufacturer Part": "19-217/GHC-YR1S2/3T",
+              "Manufacturer": "EVERLIGHT(\u4ebf\u5149)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C72043",
+              "Price": 0.027
+            },
+            {
+              "ID": 3,
+              "Name": "R0603",
+              "Designator": "R1",
+              "Footprint": "R0603",
+              "Quantity": 1,
+              "Manufacturer Part": "0603WAF6800T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C23228",
+              "Price": NaN
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1039A/1039-0101/latest/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 6,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "R0603",
+              "Designator": "R3,R5,R4,R2",
+              "Footprint": "R0603",
+              "Quantity": 4,
+              "Manufacturer Part": "0603WAF1002T5E",
+              "Manufacturer": "UniOhm",
+              "Supplier": "LCSC",
+              "Supplier Part": "C25804",
+              "Price": 0.001
+            },
+            {
+              "ID": 2,
+              "Name": "LED0603-R-RD",
+              "Designator": "D1",
+              "Footprint": "LED0603-R-RD",
+              "Quantity": 1,
+              "Manufacturer Part": "19-217/GHC-YR1S2/3T",
+              "Manufacturer": "EVERLIGHT(\u4ebf\u5149)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C72043",
+              "Price": 0.027
+            },
+            {
+              "ID": 3,
+              "Name": "R0603",
+              "Designator": "R1",
+              "Footprint": "R0603",
+              "Quantity": 1,
+              "Manufacturer Part": "0603WAF6800T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C23228",
+              "Price": NaN
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1041A/1041-0101/V1.0/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 4,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "R0603",
+              "Designator": "R1",
+              "Footprint": "R0603",
+              "Quantity": 1,
+              "Manufacturer Part": "0603WAF6800T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C23228",
+              "Price": 0.001
+            },
+            {
+              "ID": 2,
+              "Name": "LED0603-R-RD",
+              "Designator": "D1",
+              "Footprint": "LED0603-R-RD",
+              "Quantity": 1,
+              "Manufacturer Part": "19-217/GHC-YR1S2/3T",
+              "Manufacturer": "EVERLIGHT(\u4ebf\u5149)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C72043",
+              "Price": 0.027
+            },
+            {
+              "ID": 3,
+              "Name": "LED-SMD_4P-L1.5-W1.5-BL",
+              "Designator": "U400,U401,U402,U399,U398,U395,U396,U397,U386,U387,U388,U389,U390,U391,U392,U393,U394,U37,U144,U145,U146,U147,U148,U149,U150,U151,U152,U153,U154,U155,U156,U157,U158,U159,U160,U161,U162,U163,U164,U165,U166,U167,U168,U169,U170,U171,U172,U173,U174,U175,U176,U177,U178,U179,U180,U181,U182,U183,U184,U185,U186,U189,U190,U191,U192,U193,U194,U195,U198,U199,U200,U201,U202,U203,U204,U205,U206,U207,U208,U209,U210,U211,U212,U213,U214,U215,U216,U217,U218,U219,U220,U221,U222,U223,U224,U225,U226,U227,U228,U229,U230,U231,U232,U233,U234,U237,U238,U239,U240,U241,U242,U243,U244,U245,U246,U247,U250,U251,U252,U253,U254,U255,U256,U257,U258,U259,U260,U261,U262,U263,U264,U265,U266,U267,U268,U269,U271,U272,U273,U274,U275,U276,U277,U278,U279,U280,U281,U282,U283,U284,U285,U286,U287,U288,U289,U290,U291,U292,U294,U295,U297,U298,U299,U300,U301,U302,U303,U304,U305,U306,U307,U308,U309,U310,U311,U312,U313,U314,U315,U316,U317,U318,U319,U320,U321,U322,U323,U324,U325,U326,U327,U328,U329,U330,U331,U332,U333,U334,U335,U336,U337,U338,U339,U340,U341,U342,U343,U344,U345,U346,U347,U348,U349,U350,U351,U352,U353,U354,U355,U356,U357,U358,U359,U361,U362,U363,U364,U366,U367,U371,U372,U377,U378,U382,U383,U384",
+              "Footprint": "LED-SMD_4P-L1.5-W1.5-BL",
+              "Quantity": 236,
+              "Manufacturer Part": "SK6805-EC15",
+              "Manufacturer": "\u6b27\u601d\u79d1\u5149\u7535",
+              "Supplier": "LCSC",
+              "Supplier Part": "C2890035",
+              "Price": 0.182
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1041A/1041-0101/latest/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 4,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "R0603",
+              "Designator": "R1",
+              "Footprint": "R0603",
+              "Quantity": 1,
+              "Manufacturer Part": "0603WAF6800T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C23228",
+              "Price": 0.001
+            },
+            {
+              "ID": 2,
+              "Name": "LED0603-R-RD",
+              "Designator": "D1",
+              "Footprint": "LED0603-R-RD",
+              "Quantity": 1,
+              "Manufacturer Part": "19-217/GHC-YR1S2/3T",
+              "Manufacturer": "EVERLIGHT(\u4ebf\u5149)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C72043",
+              "Price": 0.027
+            },
+            {
+              "ID": 3,
+              "Name": "LED-SMD_4P-L1.5-W1.5-BL",
+              "Designator": "U400,U401,U402,U399,U398,U395,U396,U397,U386,U387,U388,U389,U390,U391,U392,U393,U394,U37,U144,U145,U146,U147,U148,U149,U150,U151,U152,U153,U154,U155,U156,U157,U158,U159,U160,U161,U162,U163,U164,U165,U166,U167,U168,U169,U170,U171,U172,U173,U174,U175,U176,U177,U178,U179,U180,U181,U182,U183,U184,U185,U186,U189,U190,U191,U192,U193,U194,U195,U198,U199,U200,U201,U202,U203,U204,U205,U206,U207,U208,U209,U210,U211,U212,U213,U214,U215,U216,U217,U218,U219,U220,U221,U222,U223,U224,U225,U226,U227,U228,U229,U230,U231,U232,U233,U234,U237,U238,U239,U240,U241,U242,U243,U244,U245,U246,U247,U250,U251,U252,U253,U254,U255,U256,U257,U258,U259,U260,U261,U262,U263,U264,U265,U266,U267,U268,U269,U271,U272,U273,U274,U275,U276,U277,U278,U279,U280,U281,U282,U283,U284,U285,U286,U287,U288,U289,U290,U291,U292,U294,U295,U297,U298,U299,U300,U301,U302,U303,U304,U305,U306,U307,U308,U309,U310,U311,U312,U313,U314,U315,U316,U317,U318,U319,U320,U321,U322,U323,U324,U325,U326,U327,U328,U329,U330,U331,U332,U333,U334,U335,U336,U337,U338,U339,U340,U341,U342,U343,U344,U345,U346,U347,U348,U349,U350,U351,U352,U353,U354,U355,U356,U357,U358,U359,U361,U362,U363,U364,U366,U367,U371,U372,U377,U378,U382,U383,U384",
+              "Footprint": "LED-SMD_4P-L1.5-W1.5-BL",
+              "Quantity": 236,
+              "Manufacturer Part": "SK6805-EC15",
+              "Manufacturer": "\u6b27\u601d\u79d1\u5149\u7535",
+              "Supplier": "LCSC",
+              "Supplier Part": "C2890035",
+              "Price": 0.182
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1058A/1058-0101/V0.3/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 13,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "CAP-SMD_L7.3-W4.3-R-RD",
+              "Designator": "C1",
+              "Footprint": "CAP-SMD_L7.3-W4.3-R-RD",
+              "Quantity": 1,
+              "Manufacturer Part": "T491D226K035AT",
+              "Manufacturer": "KEMET(\u57fa\u7f8e)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C110910",
+              "Price": 0.805
+            },
+            {
+              "ID": 2,
+              "Name": "R0603_NEW",
+              "Designator": "R2",
+              "Footprint": "R0603_NEW",
+              "Quantity": 1,
+              "Manufacturer Part": "0603WAF3301T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C22978",
+              "Price": 0.001
+            },
+            {
+              "ID": 3,
+              "Name": "R0603",
+              "Designator": "R1",
+              "Footprint": "R0603",
+              "Quantity": 1,
+              "Manufacturer Part": "0603WAF4301T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C23159",
+              "Price": 0.001
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1058A/1058-0101/V0.4/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 15,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "CAP-SMD_L7.3-W4.3-R-RD",
+              "Designator": "C5",
+              "Footprint": "CAP-SMD_L7.3-W4.3-R-RD",
+              "Quantity": 1,
+              "Manufacturer Part": "T491D226K035AT",
+              "Manufacturer": "KEMET(\u57fa\u7f8e)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C110910",
+              "Price": 0.805
+            },
+            {
+              "ID": 2,
+              "Name": "R0603_NEW",
+              "Designator": "R2",
+              "Footprint": "R0603_NEW",
+              "Quantity": 1,
+              "Manufacturer Part": "0603WAF3301T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C22978",
+              "Price": 0.001
+            },
+            {
+              "ID": 3,
+              "Name": "R0603",
+              "Designator": "R3,R4,R1",
+              "Footprint": "R0603",
+              "Quantity": 3,
+              "Manufacturer Part": "0603WAF5101T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C23186",
+              "Price": 0.001
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1058A/1058-0101/V1.0/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 15,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "R0603",
+              "Designator": "R1,R3,R4",
+              "Footprint": "R0603",
+              "Quantity": 3,
+              "Manufacturer Part": "0603WAF5101T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C23186",
+              "Price": 0.001
+            },
+            {
+              "ID": 2,
+              "Name": "R0603",
+              "Designator": "R5,R6",
+              "Footprint": "R0603",
+              "Quantity": 2,
+              "Manufacturer Part": "0603WAF2002T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C4184",
+              "Price": 0.001
+            },
+            {
+              "ID": 3,
+              "Name": "C0805",
+              "Designator": "C1,C2,C4,C3,C6",
+              "Footprint": "C0805",
+              "Quantity": 5,
+              "Manufacturer Part": "CL21A226MAQNNNE",
+              "Manufacturer": "SAMSUNG(\u4e09\u661f)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C45783",
+              "Price": 0.026
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1058A/1058-0101/latest/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 15,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "R0603",
+              "Designator": "R1,R3,R4",
+              "Footprint": "R0603",
+              "Quantity": 3,
+              "Manufacturer Part": "0603WAF5101T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C23186",
+              "Price": 0.001
+            },
+            {
+              "ID": 2,
+              "Name": "R0603",
+              "Designator": "R5,R6",
+              "Footprint": "R0603",
+              "Quantity": 2,
+              "Manufacturer Part": "0603WAF2002T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C4184",
+              "Price": 0.001
+            },
+            {
+              "ID": 3,
+              "Name": "C0805",
+              "Designator": "C1,C2,C4,C3,C6",
+              "Footprint": "C0805",
+              "Quantity": 5,
+              "Manufacturer Part": "CL21A226MAQNNNE",
+              "Manufacturer": "SAMSUNG(\u4e09\u661f)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C45783",
+              "Price": 0.026
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1097A/1097-0201/V0.1/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 2,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020",
+              "Designator": "D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18,D19,D20,D21,D22,D23,D24,D25,D26,D27,D28,D29,D30,D31,D32,D33,D34,D35,D36",
+              "Footprint": "LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020",
+              "Quantity": 36,
+              "Manufacturer Part": "WS2812B-2020",
+              "Manufacturer": "worldsemi",
+              "Supplier": "LCSC",
+              "Supplier Part": "C965555",
+              "Price": 0.102
+            },
+            {
+              "ID": 2,
+              "Name": "HDR-TH_4P-P2.00-V-M",
+              "Designator": "J1",
+              "Footprint": "HDR-TH_4P-P2.00-V-M",
+              "Quantity": 1,
+              "Manufacturer Part": "DZ200R-11-04-39",
+              "Manufacturer": "DEALON(\u5fb7\u827a\u9686)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C2935903",
+              "Price": 0.02
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1097A/1097-0201/latest/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 2,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020",
+              "Designator": "D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18,D19,D20,D21,D22,D23,D24,D25,D26,D27,D28,D29,D30,D31,D32,D33,D34,D35,D36",
+              "Footprint": "LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020",
+              "Quantity": 36,
+              "Manufacturer Part": "WS2812B-2020",
+              "Manufacturer": "worldsemi",
+              "Supplier": "LCSC",
+              "Supplier Part": "C965555",
+              "Price": 0.102
+            },
+            {
+              "ID": 2,
+              "Name": "HDR-TH_4P-P2.00-V-M",
+              "Designator": "J1",
+              "Footprint": "HDR-TH_4P-P2.00-V-M",
+              "Quantity": 1,
+              "Manufacturer Part": "DZ200R-11-04-39",
+              "Manufacturer": "DEALON(\u5fb7\u827a\u9686)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C2935903",
+              "Price": 0.02
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1108A/1108-0101/V0.1/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 3,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020",
+              "Designator": "D10,D15,D16,D17,D18,D22,D21,D20,D19,D11,D12,D13,D14,D2,D3,D4,D5,D9,D8,D7,D6",
+              "Footprint": "LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020",
+              "Quantity": 21,
+              "Manufacturer Part": "WS2812C-2020-V1",
+              "Manufacturer": "worldsemi",
+              "Supplier": "LCSC",
+              "Supplier Part": "C2976072",
+              "Price": 0.098
+            },
+            {
+              "ID": 2,
+              "Name": "R0603",
+              "Designator": "R1",
+              "Footprint": "R0603",
+              "Quantity": 1,
+              "Manufacturer Part": NaN,
+              "Manufacturer": NaN,
+              "Supplier": NaN,
+              "Supplier Part": NaN,
+              "Price": NaN
+            },
+            {
+              "ID": 3,
+              "Name": "LED0603-RD",
+              "Designator": "D1",
+              "Footprint": "LED0603-RD",
+              "Quantity": 1,
+              "Manufacturer Part": NaN,
+              "Manufacturer": NaN,
+              "Supplier": NaN,
+              "Supplier Part": NaN,
+              "Price": NaN
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1108A/1108-0101/latest/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 3,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020",
+              "Designator": "D10,D15,D16,D17,D18,D22,D21,D20,D19,D11,D12,D13,D14,D2,D3,D4,D5,D9,D8,D7,D6",
+              "Footprint": "LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020",
+              "Quantity": 21,
+              "Manufacturer Part": "WS2812C-2020-V1",
+              "Manufacturer": "worldsemi",
+              "Supplier": "LCSC",
+              "Supplier Part": "C2976072",
+              "Price": 0.098
+            },
+            {
+              "ID": 2,
+              "Name": "R0603",
+              "Designator": "R1",
+              "Footprint": "R0603",
+              "Quantity": 1,
+              "Manufacturer Part": NaN,
+              "Manufacturer": NaN,
+              "Supplier": NaN,
+              "Supplier Part": NaN,
+              "Price": NaN
+            },
+            {
+              "ID": 3,
+              "Name": "LED0603-RD",
+              "Designator": "D1",
+              "Footprint": "LED0603-RD",
+              "Quantity": 1,
+              "Manufacturer Part": NaN,
+              "Manufacturer": NaN,
+              "Supplier": NaN,
+              "Supplier Part": NaN,
+              "Price": NaN
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1114A/1114-0101/V0.1/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 10,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "CONN-SMD-3P-P1.00_BM03B-SRSS-TB-LF-SN",
+              "Designator": "J5,J6",
+              "Footprint": "CONN-SMD-3P-P1.00_BM03B-SRSS-TB-LF-SN",
+              "Quantity": 2,
+              "Manufacturer Part": "BM03B-SRSS-TB(LF)(SN)",
+              "Manufacturer": "JST",
+              "Supplier": "LCSC",
+              "Supplier Part": "C160389",
+              "Price": 0.184
+            },
+            {
+              "ID": 2,
+              "Name": "BM09B-SRSS-TB(LF)(SN)",
+              "Designator": "J4",
+              "Footprint": "BM09B-SRSS-TB(LF)(SN)",
+              "Quantity": 1,
+              "Manufacturer Part": NaN,
+              "Manufacturer": NaN,
+              "Supplier": NaN,
+              "Supplier Part": "BM09B-SRSS-TB(LF)(SN)",
+              "Price": NaN
+            },
+            {
+              "ID": 3,
+              "Name": "C0402",
+              "Designator": "C431,C432",
+              "Footprint": "C0402",
+              "Quantity": 2,
+              "Manufacturer Part": "CL05A225MQ5NSNC",
+              "Manufacturer": "SAMSUNG(\u4e09\u661f)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C12530",
+              "Price": 0.003
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1114A/1114-0101/latest/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 10,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "CONN-SMD-3P-P1.00_BM03B-SRSS-TB-LF-SN",
+              "Designator": "J5,J6",
+              "Footprint": "CONN-SMD-3P-P1.00_BM03B-SRSS-TB-LF-SN",
+              "Quantity": 2,
+              "Manufacturer Part": "BM03B-SRSS-TB(LF)(SN)",
+              "Manufacturer": "JST",
+              "Supplier": "LCSC",
+              "Supplier Part": "C160389",
+              "Price": 0.184
+            },
+            {
+              "ID": 2,
+              "Name": "BM09B-SRSS-TB(LF)(SN)",
+              "Designator": "J4",
+              "Footprint": "BM09B-SRSS-TB(LF)(SN)",
+              "Quantity": 1,
+              "Manufacturer Part": NaN,
+              "Manufacturer": NaN,
+              "Supplier": NaN,
+              "Supplier Part": "BM09B-SRSS-TB(LF)(SN)",
+              "Price": NaN
+            },
+            {
+              "ID": 3,
+              "Name": "C0402",
+              "Designator": "C431,C432",
+              "Footprint": "C0402",
+              "Quantity": 2,
+              "Manufacturer Part": "CL05A225MQ5NSNC",
+              "Manufacturer": "SAMSUNG(\u4e09\u661f)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C12530",
+              "Price": 0.003
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1116A/1116-0101/V0.1/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 3,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "LED-SMD_4P-L1.5-W1.5-BL",
+              "Designator": "U393,U394,U395,U396,U397,U398,U400,U401,U402,U403,U404,U405,U406,U407,U408,U409,U410,U411,U412,U413,U414,U415,U416,U417,U418,U419,U420,U421,U422,U423,U424,U425,U426,U427,U428,U429,U430,U431,U432,U433,U434,U435,U436,U437,U438,U439,U440,U441,U442,U443,U444,U445,U446,U447,U448,U449,U450,U451,U452,U453,U454,U455,U456,U457,U458,U459,U460,U461,U462,U463,U464,U465,U466,U467,U468,U469,U470",
+              "Footprint": "LED-SMD_4P-L1.5-W1.5-BL",
+              "Quantity": 77,
+              "Manufacturer Part": "SK6805-EC15",
+              "Manufacturer": "\u6b27\u601d\u79d1\u5149\u7535",
+              "Supplier": "LCSC",
+              "Supplier Part": "C2890035",
+              "Price": 0.182
+            },
+            {
+              "ID": 2,
+              "Name": "R0603",
+              "Designator": "R1",
+              "Footprint": "R0603",
+              "Quantity": 1,
+              "Manufacturer Part": NaN,
+              "Manufacturer": NaN,
+              "Supplier": NaN,
+              "Supplier Part": NaN,
+              "Price": NaN
+            },
+            {
+              "ID": 3,
+              "Name": "LED0603-RD",
+              "Designator": "D1",
+              "Footprint": "LED0603-RD",
+              "Quantity": 1,
+              "Manufacturer Part": NaN,
+              "Manufacturer": NaN,
+              "Supplier": NaN,
+              "Supplier Part": NaN,
+              "Price": NaN
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1116A/1116-0101/latest/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 3,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "LED-SMD_4P-L1.5-W1.5-BL",
+              "Designator": "U393,U394,U395,U396,U397,U398,U400,U401,U402,U403,U404,U405,U406,U407,U408,U409,U410,U411,U412,U413,U414,U415,U416,U417,U418,U419,U420,U421,U422,U423,U424,U425,U426,U427,U428,U429,U430,U431,U432,U433,U434,U435,U436,U437,U438,U439,U440,U441,U442,U443,U444,U445,U446,U447,U448,U449,U450,U451,U452,U453,U454,U455,U456,U457,U458,U459,U460,U461,U462,U463,U464,U465,U466,U467,U468,U469,U470",
+              "Footprint": "LED-SMD_4P-L1.5-W1.5-BL",
+              "Quantity": 77,
+              "Manufacturer Part": "SK6805-EC15",
+              "Manufacturer": "\u6b27\u601d\u79d1\u5149\u7535",
+              "Supplier": "LCSC",
+              "Supplier Part": "C2890035",
+              "Price": 0.182
+            },
+            {
+              "ID": 2,
+              "Name": "R0603",
+              "Designator": "R1",
+              "Footprint": "R0603",
+              "Quantity": 1,
+              "Manufacturer Part": NaN,
+              "Manufacturer": NaN,
+              "Supplier": NaN,
+              "Supplier Part": NaN,
+              "Price": NaN
+            },
+            {
+              "ID": 3,
+              "Name": "LED0603-RD",
+              "Designator": "D1",
+              "Footprint": "LED0603-RD",
+              "Quantity": 1,
+              "Manufacturer Part": NaN,
+              "Manufacturer": NaN,
+              "Supplier": NaN,
+              "Supplier Part": NaN,
+              "Price": NaN
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1117A/1117-0101/V0.2/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 3,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "LED-SMD_4P-L1.5-W1.5-BL",
+              "Designator": "U453,U454,U455,U456,U457,U458,U459,U460,U449,U450,U451,U452,U407,U408,U409,U410,U411,U412,U413,U414,U415,U416,U417,U418,U419,U420,U421,U422,U423,U424,U425,U426,U427,U428,U429,U430,U431,U432,U433,U434,U435,U436,U437,U438,U439,U440,U441,U442,U443,U444,U445,U446,U447,U448,U393,U394,U395,U396,U397,U398,U399,U400,U401,U402,U403,U404,U405,U406",
+              "Footprint": "LED-SMD_4P-L1.5-W1.5-BL",
+              "Quantity": 68,
+              "Manufacturer Part": "SK6805-EC15",
+              "Manufacturer": "\u6b27\u601d\u79d1\u5149\u7535",
+              "Supplier": "LCSC",
+              "Supplier Part": "C2890035",
+              "Price": 0.182
+            },
+            {
+              "ID": 2,
+              "Name": "R0603",
+              "Designator": "R1",
+              "Footprint": "R0603",
+              "Quantity": 1,
+              "Manufacturer Part": NaN,
+              "Manufacturer": NaN,
+              "Supplier": NaN,
+              "Supplier Part": NaN,
+              "Price": NaN
+            },
+            {
+              "ID": 3,
+              "Name": "LED0603-RD",
+              "Designator": "D1",
+              "Footprint": "LED0603-RD",
+              "Quantity": 1,
+              "Manufacturer Part": NaN,
+              "Manufacturer": NaN,
+              "Supplier": NaN,
+              "Supplier Part": NaN,
+              "Price": NaN
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1117A/1117-0101/latest/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 3,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "LED-SMD_4P-L1.5-W1.5-BL",
+              "Designator": "U453,U454,U455,U456,U457,U458,U459,U460,U449,U450,U451,U452,U407,U408,U409,U410,U411,U412,U413,U414,U415,U416,U417,U418,U419,U420,U421,U422,U423,U424,U425,U426,U427,U428,U429,U430,U431,U432,U433,U434,U435,U436,U437,U438,U439,U440,U441,U442,U443,U444,U445,U446,U447,U448,U393,U394,U395,U396,U397,U398,U399,U400,U401,U402,U403,U404,U405,U406",
+              "Footprint": "LED-SMD_4P-L1.5-W1.5-BL",
+              "Quantity": 68,
+              "Manufacturer Part": "SK6805-EC15",
+              "Manufacturer": "\u6b27\u601d\u79d1\u5149\u7535",
+              "Supplier": "LCSC",
+              "Supplier Part": "C2890035",
+              "Price": 0.182
+            },
+            {
+              "ID": 2,
+              "Name": "R0603",
+              "Designator": "R1",
+              "Footprint": "R0603",
+              "Quantity": 1,
+              "Manufacturer Part": NaN,
+              "Manufacturer": NaN,
+              "Supplier": NaN,
+              "Supplier Part": NaN,
+              "Price": NaN
+            },
+            {
+              "ID": 3,
+              "Name": "LED0603-RD",
+              "Designator": "D1",
+              "Footprint": "LED0603-RD",
+              "Quantity": 1,
+              "Manufacturer Part": NaN,
+              "Manufacturer": NaN,
+              "Supplier": NaN,
+              "Supplier Part": NaN,
+              "Price": NaN
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1120A/1120-0101/V1.1/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 8,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+              "Designator": "U2,U1",
+              "Footprint": "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+              "Quantity": 2,
+              "Manufacturer Part": "SN74HCT14DR",
+              "Manufacturer": "TI(\u5fb7\u5dde\u4eea\u5668)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C6769",
+              "Price": 0.151
+            },
+            {
+              "ID": 2,
+              "Name": "R0603",
+              "Designator": "R19,R20,R21,R22,R23,R24,R25,R18",
+              "Footprint": "R0603",
+              "Quantity": 8,
+              "Manufacturer Part": "0603WAF2002T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C4184",
+              "Price": 0.001
+            },
+            {
+              "ID": 3,
+              "Name": "R0603",
+              "Designator": "R11,R12,R13,R14,R15,R16,R17,R10",
+              "Footprint": "R0603",
+              "Quantity": 8,
+              "Manufacturer Part": "0603WAF8202T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C23254",
+              "Price": 0.001
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1120A/1120-0101/latest/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 8,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+              "Designator": "U2,U1",
+              "Footprint": "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+              "Quantity": 2,
+              "Manufacturer Part": "SN74HCT14DR",
+              "Manufacturer": "TI(\u5fb7\u5dde\u4eea\u5668)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C6769",
+              "Price": 0.151
+            },
+            {
+              "ID": 2,
+              "Name": "R0603",
+              "Designator": "R19,R20,R21,R22,R23,R24,R25,R18",
+              "Footprint": "R0603",
+              "Quantity": 8,
+              "Manufacturer Part": "0603WAF2002T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C4184",
+              "Price": 0.001
+            },
+            {
+              "ID": 3,
+              "Name": "R0603",
+              "Designator": "R11,R12,R13,R14,R15,R16,R17,R10",
+              "Footprint": "R0603",
+              "Quantity": 8,
+              "Manufacturer Part": "0603WAF8202T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C23254",
+              "Price": 0.001
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1121A/1121-0101/V1.1/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 6,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "R0603",
+              "Designator": "R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R18,R19,R11,R12,R13,R14,R15,R16,R17,R10",
+              "Footprint": "R0603",
+              "Quantity": 24,
+              "Manufacturer Part": "0603WAF1001T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C21190",
+              "Price": 0.001
+            },
+            {
+              "ID": 2,
+              "Name": "R0603",
+              "Designator": "R3,R4,R5,R6,R7,R8,R9,R2",
+              "Footprint": "R0603",
+              "Quantity": 8,
+              "Manufacturer Part": "0603WAF1002T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C25804",
+              "Price": 0.001
+            },
+            {
+              "ID": 3,
+              "Name": "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+              "Designator": "U2,U1",
+              "Footprint": "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+              "Quantity": 2,
+              "Manufacturer Part": "SN74HCT14DR",
+              "Manufacturer": "TI(\u5fb7\u5dde\u4eea\u5668)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C6769",
+              "Price": 0.151
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1121A/1121-0101/latest/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 6,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "R0603",
+              "Designator": "R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R18,R19,R11,R12,R13,R14,R15,R16,R17,R10",
+              "Footprint": "R0603",
+              "Quantity": 24,
+              "Manufacturer Part": "0603WAF1001T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C21190",
+              "Price": 0.001
+            },
+            {
+              "ID": 2,
+              "Name": "R0603",
+              "Designator": "R3,R4,R5,R6,R7,R8,R9,R2",
+              "Footprint": "R0603",
+              "Quantity": 8,
+              "Manufacturer Part": "0603WAF1002T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C25804",
+              "Price": 0.001
+            },
+            {
+              "ID": 3,
+              "Name": "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+              "Designator": "U2,U1",
+              "Footprint": "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+              "Quantity": 2,
+              "Manufacturer Part": "SN74HCT14DR",
+              "Manufacturer": "TI(\u5fb7\u5dde\u4eea\u5668)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C6769",
+              "Price": 0.151
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1121A/1121-0101/v1.0/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 6,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "R0603",
+              "Designator": "R1",
+              "Footprint": "R0603",
+              "Quantity": 1,
+              "Manufacturer Part": "0603WAF2701T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C13167",
+              "Price": 0.001
+            },
+            {
+              "ID": 2,
+              "Name": "LED0603-R-RD",
+              "Designator": "D1",
+              "Footprint": "LED0603-R-RD",
+              "Quantity": 1,
+              "Manufacturer Part": "19-217/GHC-YR1S2/3T",
+              "Manufacturer": "EVERLIGHT(\u4ebf\u5149)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C72043",
+              "Price": 0.027
+            },
+            {
+              "ID": 3,
+              "Name": "R0603",
+              "Designator": "R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R18,R19,R11,R12,R13,R14,R15,R16,R17,R10",
+              "Footprint": "R0603",
+              "Quantity": 24,
+              "Manufacturer Part": "0603WAF1001T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C21190",
+              "Price": 0.001
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1157A/1157-0101/V0.1/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 11,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "R0603",
+              "Designator": "R17,R18,R19,R20",
+              "Footprint": "R0603",
+              "Quantity": 4,
+              "Manufacturer Part": "0603WAF1001T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C21190",
+              "Price": 0.001
+            },
+            {
+              "ID": 2,
+              "Name": "R0603",
+              "Designator": "R15,R16,R13,R14",
+              "Footprint": "R0603",
+              "Quantity": 4,
+              "Manufacturer Part": "0603WAF1002T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C25804",
+              "Price": 0.001
+            },
+            {
+              "ID": 3,
+              "Name": "R0603",
+              "Designator": "R9,R10,R7,R8,R11,R12",
+              "Footprint": "R0603",
+              "Quantity": 6,
+              "Manufacturer Part": "0603WAF5101T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C23186",
+              "Price": 0.001
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1157A/1157-0101/latest/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 11,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "R0603",
+              "Designator": "R17,R18,R19,R20",
+              "Footprint": "R0603",
+              "Quantity": 4,
+              "Manufacturer Part": "0603WAF1001T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C21190",
+              "Price": 0.001
+            },
+            {
+              "ID": 2,
+              "Name": "R0603",
+              "Designator": "R15,R16,R13,R14",
+              "Footprint": "R0603",
+              "Quantity": 4,
+              "Manufacturer Part": "0603WAF1002T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C25804",
+              "Price": 0.001
+            },
+            {
+              "ID": 3,
+              "Name": "R0603",
+              "Designator": "R9,R10,R7,R8,R11,R12",
+              "Footprint": "R0603",
+              "Quantity": 6,
+              "Manufacturer Part": "0603WAF5101T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C23186",
+              "Price": 0.001
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1158A/1158-0101/V0.1/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 8,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "R1206",
+              "Designator": "R13,R10,R6,R9",
+              "Footprint": "R1206",
+              "Quantity": 4,
+              "Manufacturer Part": "1206W4F5601T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C18028",
+              "Price": 0.003
+            },
+            {
+              "ID": 2,
+              "Name": "R1206",
+              "Designator": "R12,R11,R7,R8",
+              "Footprint": "R1206",
+              "Quantity": 4,
+              "Manufacturer Part": "1206W4F1001T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C4410",
+              "Price": 0.003
+            },
+            {
+              "ID": 3,
+              "Name": "R0603",
+              "Designator": "R14,R15,R16,R17",
+              "Footprint": "R0603",
+              "Quantity": 4,
+              "Manufacturer Part": "0603WAF1001T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C21190",
+              "Price": 0.001
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1158A/1158-0101/latest/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 8,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "R1206",
+              "Designator": "R13,R10,R6,R9",
+              "Footprint": "R1206",
+              "Quantity": 4,
+              "Manufacturer Part": "1206W4F5601T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C18028",
+              "Price": 0.003
+            },
+            {
+              "ID": 2,
+              "Name": "R1206",
+              "Designator": "R12,R11,R7,R8",
+              "Footprint": "R1206",
+              "Quantity": 4,
+              "Manufacturer Part": "1206W4F1001T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C4410",
+              "Price": 0.003
+            },
+            {
+              "ID": 3,
+              "Name": "R0603",
+              "Designator": "R14,R15,R16,R17",
+              "Footprint": "R0603",
+              "Quantity": 4,
+              "Manufacturer Part": "0603WAF1001T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C21190",
+              "Price": 0.001
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1159A/1159-0101/V0.1/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 8,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "R0603",
+              "Designator": "R2,R3",
+              "Footprint": "R0603",
+              "Quantity": 2,
+              "Manufacturer Part": "0603WAF1502T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C22809",
+              "Price": 0.001
+            },
+            {
+              "ID": 2,
+              "Name": "LED0603-R-RD",
+              "Designator": "D4,D5,D1",
+              "Footprint": "LED0603-R-RD",
+              "Quantity": 3,
+              "Manufacturer Part": "19-217/GHC-YR1S2/3T",
+              "Manufacturer": "EVERLIGHT(\u4ebf\u5149)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C72043",
+              "Price": 0.027
+            },
+            {
+              "ID": 3,
+              "Name": "R0603",
+              "Designator": "R1",
+              "Footprint": "R0603",
+              "Quantity": 1,
+              "Manufacturer Part": "0603WAF2701T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C13167",
+              "Price": 0.001
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1159A/1159-0101/latest/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 8,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "R0603",
+              "Designator": "R2,R3",
+              "Footprint": "R0603",
+              "Quantity": 2,
+              "Manufacturer Part": "0603WAF1502T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C22809",
+              "Price": 0.001
+            },
+            {
+              "ID": 2,
+              "Name": "LED0603-R-RD",
+              "Designator": "D4,D5,D1",
+              "Footprint": "LED0603-R-RD",
+              "Quantity": 3,
+              "Manufacturer Part": "19-217/GHC-YR1S2/3T",
+              "Manufacturer": "EVERLIGHT(\u4ebf\u5149)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C72043",
+              "Price": 0.027
+            },
+            {
+              "ID": 3,
+              "Name": "R0603",
+              "Designator": "R1",
+              "Footprint": "R0603",
+              "Quantity": 1,
+              "Manufacturer Part": "0603WAF2701T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C13167",
+              "Price": 0.001
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1160A/1160-0101/V0.1/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 9,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "C0603",
+              "Designator": "C1,C2",
+              "Footprint": "C0603",
+              "Quantity": 2,
+              "Manufacturer Part": "CC0603KRX7R9BB104",
+              "Manufacturer": "YAGEO(\u56fd\u5de8)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C14663",
+              "Price": 0.002
+            },
+            {
+              "ID": 2,
+              "Name": "R0603",
+              "Designator": "R3,R2,R9,R11,R6,R4,R8,R7",
+              "Footprint": "R0603",
+              "Quantity": 8,
+              "Manufacturer Part": "0603WAF4701T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C23162",
+              "Price": 0.001
+            },
+            {
+              "ID": 3,
+              "Name": "SMA_L4.4-W2.6-LS5.0-BI",
+              "Designator": "D5,D4,D3,D2,D6,D7",
+              "Footprint": "SMA_L4.4-W2.6-LS5.0-BI",
+              "Quantity": 6,
+              "Manufacturer Part": "SMAJ12CA",
+              "Manufacturer": "BORN(\u4f2f\u6069\u534a\u5bfc\u4f53)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C152122",
+              "Price": 0.05
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1160A/1160-0101/latest/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 9,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "C0603",
+              "Designator": "C1,C2",
+              "Footprint": "C0603",
+              "Quantity": 2,
+              "Manufacturer Part": "CC0603KRX7R9BB104",
+              "Manufacturer": "YAGEO(\u56fd\u5de8)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C14663",
+              "Price": 0.002
+            },
+            {
+              "ID": 2,
+              "Name": "R0603",
+              "Designator": "R3,R2,R9,R11,R6,R4,R8,R7",
+              "Footprint": "R0603",
+              "Quantity": 8,
+              "Manufacturer Part": "0603WAF4701T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C23162",
+              "Price": 0.001
+            },
+            {
+              "ID": 3,
+              "Name": "SMA_L4.4-W2.6-LS5.0-BI",
+              "Designator": "D5,D4,D3,D2,D6,D7",
+              "Footprint": "SMA_L4.4-W2.6-LS5.0-BI",
+              "Quantity": 6,
+              "Manufacturer Part": "SMAJ12CA",
+              "Manufacturer": "BORN(\u4f2f\u6069\u534a\u5bfc\u4f53)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C152122",
+              "Price": 0.05
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1161A/1161-0101/V0.1/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 9,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "R0603",
+              "Designator": "R1",
+              "Footprint": "R0603",
+              "Quantity": 1,
+              "Manufacturer Part": "0603WAF2001T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C22975",
+              "Price": 0.001
+            },
+            {
+              "ID": 2,
+              "Name": "LED0603-R-RD",
+              "Designator": "D1",
+              "Footprint": "LED0603-R-RD",
+              "Quantity": 1,
+              "Manufacturer Part": "19-217/GHC-YR1S2/3T",
+              "Manufacturer": "EVERLIGHT(\u4ebf\u5149)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C72043",
+              "Price": 0.027
+            },
+            {
+              "ID": 3,
+              "Name": "SO-8_L4.9-W3.9-P1.27-LS6.0-BL",
+              "Designator": "U1",
+              "Footprint": "SO-8_L4.9-W3.9-P1.27-LS6.0-BL",
+              "Quantity": 1,
+              "Manufacturer Part": "NT3H2111W0FT1X",
+              "Manufacturer": "NXP(\u6069\u667a\u6d66)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C2654859",
+              "Price": 0.791
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "stamps/1161A/1161-0101/latest/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 9,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "R0603",
+              "Designator": "R1",
+              "Footprint": "R0603",
+              "Quantity": 1,
+              "Manufacturer Part": "0603WAF2001T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C22975",
+              "Price": 0.001
+            },
+            {
+              "ID": 2,
+              "Name": "LED0603-R-RD",
+              "Designator": "D1",
+              "Footprint": "LED0603-R-RD",
+              "Quantity": 1,
+              "Manufacturer Part": "19-217/GHC-YR1S2/3T",
+              "Manufacturer": "EVERLIGHT(\u4ebf\u5149)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C72043",
+              "Price": 0.027
+            },
+            {
+              "ID": 3,
+              "Name": "SO-8_L4.9-W3.9-P1.27-LS6.0-BL",
+              "Designator": "U1",
+              "Footprint": "SO-8_L4.9-W3.9-P1.27-LS6.0-BL",
+              "Quantity": 1,
+              "Manufacturer Part": "NT3H2111W0FT1X",
+              "Manufacturer": "NXP(\u6069\u667a\u6d66)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C2654859",
+              "Price": 0.791
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "trainers/1620A/1620-0101/V0.1/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 14,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+              "Designator": "U10,U9,U7,U8",
+              "Footprint": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+              "Quantity": 4,
+              "Manufacturer Part": "SN74LVC1G14DBVR",
+              "Manufacturer": "UMW(\u5e7f\u4e1c\u53cb\u53f0\u534a\u5bfc\u4f53)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C434069",
+              "Price": 0.054
+            },
+            {
+              "ID": 2,
+              "Name": "R0603",
+              "Designator": "R125,R126,R127,R128,R129,R121,R122,R123,R120,R119,R118,R1,R116,R4,R107,R108,R109,R110,R111,R85,R86,R87,R88,R89,R90,R91,R92,R93,R94,R95,R96,R97,R98,R99,R100,R101,R102,R103,R104,R105,R106,R81,R82,R83,R84,R65,R66,R67,R68,R69,R70,R71,R72,R73,R74,R75,R76,R77,R78,R79,R80,R33,R34,R35,R36,R37,R38,R39,R40,R41,R42,R43,R44,R45,R46,R47,R48,R49,R50,R51,R52,R53,R54,R55,R56,R57,R58,R59,R60,R61,R62,R63,R64,R112,R113,R114,R115,R124,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32",
+              "Footprint": "R0603",
+              "Quantity": 125,
+              "Manufacturer Part": "0603WAF4301T5E",
+              "Manufacturer": "UNI-ROYAL(\u539a\u58f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C23159",
+              "Price": 0.001
+            },
+            {
+              "ID": 3,
+              "Name": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+              "Designator": "U3",
+              "Footprint": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+              "Quantity": 1,
+              "Manufacturer Part": "SN74LVC1G08DBVR",
+              "Manufacturer": "TI(\u5fb7\u5dde\u4eea\u5668)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C7666",
+              "Price": 0.072
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "trainers/1620A/1620-0101/V0.2/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 15,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "C0603",
+              "Designator": "C1",
+              "Footprint": "C0603",
+              "Quantity": 1,
+              "Manufacturer Part": "CC0603KRX7R9BB104",
+              "Manufacturer": "YAGEO(\u56fd\u5de8)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C14663",
+              "Price": 0.002
+            },
+            {
+              "ID": 2,
+              "Name": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+              "Designator": "U2,U11",
+              "Footprint": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+              "Quantity": 2,
+              "Manufacturer Part": "SN74LVC1G02DBVR",
+              "Manufacturer": "TI(\u5fb7\u5dde\u4eea\u5668)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C16360",
+              "Price": 0.073
+            },
+            {
+              "ID": 3,
+              "Name": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+              "Designator": "U10,U9,U7,U8",
+              "Footprint": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+              "Quantity": 4,
+              "Manufacturer Part": "SN74LVC1G14DBVR",
+              "Manufacturer": "UMW(\u5e7f\u4e1c\u53cb\u53f0\u534a\u5bfc\u4f53)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C434069",
+              "Price": 0.054
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "trainers/1620A/1620-0101/V1.0/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 16,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "SOD-123_L2.7-W1.6-LS3.7-RD-1",
+              "Designator": "D3",
+              "Footprint": "SOD-123_L2.7-W1.6-LS3.7-RD-1",
+              "Quantity": 1,
+              "Manufacturer Part": "1N4148W-7-F",
+              "Manufacturer": "DIODES(\u7f8e\u53f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C83528",
+              "Price": 0.01
+            },
+            {
+              "ID": 2,
+              "Name": "C0603",
+              "Designator": "C1",
+              "Footprint": "C0603",
+              "Quantity": 1,
+              "Manufacturer Part": "CC0603KRX7R9BB104",
+              "Manufacturer": "YAGEO(\u56fd\u5de8)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C14663",
+              "Price": 0.002
+            },
+            {
+              "ID": 3,
+              "Name": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+              "Designator": "U2,U11",
+              "Footprint": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+              "Quantity": 2,
+              "Manufacturer Part": "SN74LVC1G02DBVR",
+              "Manufacturer": "TI(\u5fb7\u5dde\u4eea\u5668)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C16360",
+              "Price": 0.072
+            }
+          ],
+          "separator": "\t"
+        },
+        {
+          "type": "csv",
+          "path": "trainers/1620A/1620-0101/latest/bom.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "Price"
+          ],
+          "row_count": 16,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "SOD-123_L2.7-W1.6-LS3.7-RD-1",
+              "Designator": "D3",
+              "Footprint": "SOD-123_L2.7-W1.6-LS3.7-RD-1",
+              "Quantity": 1,
+              "Manufacturer Part": "1N4148W-7-F",
+              "Manufacturer": "DIODES(\u7f8e\u53f0)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C83528",
+              "Price": 0.01
+            },
+            {
+              "ID": 2,
+              "Name": "C0603",
+              "Designator": "C1",
+              "Footprint": "C0603",
+              "Quantity": 1,
+              "Manufacturer Part": "CC0603KRX7R9BB104",
+              "Manufacturer": "YAGEO(\u56fd\u5de8)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C14663",
+              "Price": 0.002
+            },
+            {
+              "ID": 3,
+              "Name": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+              "Designator": "U2,U11",
+              "Footprint": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+              "Quantity": 2,
+              "Manufacturer Part": "SN74LVC1G02DBVR",
+              "Manufacturer": "TI(\u5fb7\u5dde\u4eea\u5668)",
+              "Supplier": "LCSC",
+              "Supplier Part": "C16360",
+              "Price": 0.072
+            }
+          ],
+          "separator": "\t"
+        }
+      ],
+      "analysis_time": "2024-12-10T09:12:07.985256"
+    },
+    {
+      "repo_url": "https://github.com/3mdeb/tpm2_2x5pin_2mm_lpc",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:12:10.564647"
+    },
+    {
+      "repo_url": "https://github.com/DJDevon3/My_Circuit_Python_Projects",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:17:27.766759"
+    },
+    {
+      "repo_url": "https://github.com/PiSupply/Ryanteck",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:18:21.657220"
+    },
+    {
+      "repo_url": "https://github.com/Aightm8/Traffic-wave-disruptor",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:18:24.160798"
+    },
+    {
+      "repo_url": "https://github.com/htfab/treepram",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:18:41.449614"
+    },
+    {
+      "repo_url": "https://github.com/humancomputerintegration/trigeminal-based-temperature-illusions",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:18:45.019670"
+    },
+    {
+      "repo_url": "https://github.com/gocivici/trinteract",
+      "bom_count": 1,
+      "patterns": [
+        {
+          "type": "csv",
+          "path": "PCB/trinteractBOM.csv",
+          "columns": [
+            "Id",
+            "Designator",
+            "Package",
+            "Quantity",
+            "Designation",
+            "Supplier and ref"
+          ],
+          "row_count": 9,
+          "sample_rows": [
+            {
+              "Id": 1,
+              "Designator": "D1",
+              "Package": "156120GS82500",
+              "Quantity": 1,
+              "Designation": "LED",
+              "Supplier and ref": NaN
+            },
+            {
+              "Id": 2,
+              "Designator": "R3,R1",
+              "Package": "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+              "Quantity": 2,
+              "Designation": "2k2",
+              "Supplier and ref": NaN
+            },
+            {
+              "Id": 3,
+              "Designator": "R2",
+              "Package": "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+              "Quantity": 1,
+              "Designation": "680R",
+              "Supplier and ref": NaN
+            }
+          ],
+          "separator": ","
+        }
+      ],
+      "analysis_time": "2024-12-10T09:21:27.123942"
+    },
+    {
+      "repo_url": "https://github.com/jefftranter/68000",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:22:08.504745"
+    },
+    {
+      "repo_url": "https://github.com/watterott/TSL25911-Breakout",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:22:10.625896"
+    },
+    {
+      "repo_url": "https://github.com/watterott/TSL45315-Breakout",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:22:13.221138"
+    },
+    {
+      "repo_url": "https://github.com/0xCB-dev/0xCB-TutelPad",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:22:20.913947"
+    },
+    {
+      "repo_url": "https://github.com/BrainCOGS/Microscope",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:22:28.620628"
+    },
+    {
+      "repo_url": "https://github.com/NebraLtd/FlashStick",
+      "bom_count": 1,
+      "patterns": [
+        {
+          "type": "csv",
+          "path": "Raspberry Pi Compute Module 3/BOM-CM3-FlashStick.csv",
+          "columns": [
+            "QTY",
+            "Component",
+            "Value",
+            "Parts",
+            "Manufacturer Code",
+            "Mouser Code",
+            "Notes"
+          ],
+          "row_count": 16,
+          "sample_rows": [
+            {
+              "QTY": 2,
+              "Component": "SRN4018TA-4R7M",
+              "Value": "4.7uH",
+              "Parts": "L1, L2",
+              "Manufacturer Code": "SRN4018TA-4R7M",
+              "Mouser Code": "652-SRN4018TA-4R7M",
+              "Notes": NaN
+            },
+            {
+              "QTY": 2,
+              "Component": "DMG1012T-7",
+              "Value": NaN,
+              "Parts": "Q1, Q2",
+              "Manufacturer Code": "DMG1012T-7",
+              "Mouser Code": "621-DMG1012T-7",
+              "Notes": NaN
+            },
+            {
+              "QTY": 1,
+              "Component": "PAM2306AYPKE",
+              "Value": NaN,
+              "Parts": "U1",
+              "Manufacturer Code": "PAM2306AYPKE",
+              "Mouser Code": "621-PAM2306AYPKE",
+              "Notes": NaN
+            }
+          ],
+          "separator": ","
+        }
+      ],
+      "analysis_time": "2024-12-10T09:22:37.016580"
+    },
+    {
+      "repo_url": "https://github.com/Chromico/Raspberry-Pi-Pico-Breakout-Board",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:22:40.489633"
+    },
+    {
+      "repo_url": "https://github.com/Chromico/Raspberry-Pi-Screw-Terminal-Shield",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:22:43.824213"
+    },
+    {
+      "repo_url": "https://github.com/M0RPH10U5/ultimate-og-hd-pak",
+      "bom_count": 1,
+      "patterns": [
+        {
+          "type": "csv",
+          "path": "Files/BOM.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Manufacturer",
+            "Supplier",
+            "Supplier Part",
+            "link"
+          ],
+          "row_count": 14,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "AVIP",
+              "Designator": "XBOX",
+              "Footprint": "XBOX AVIP",
+              "Quantity": 1,
+              "Manufacturer Part": NaN,
+              "Manufacturer": NaN,
+              "Supplier": NaN,
+              "Supplier Part": NaN,
+              "link": NaN
+            },
+            {
+              "ID": 2,
+              "Name": "Digital Audio",
+              "Designator": "CN1",
+              "Footprint": "COMM-TH_PLT133/T10W",
+              "Quantity": 1,
+              "Manufacturer Part": "PLT133/T10W",
+              "Manufacturer": "EVERLIGHT",
+              "Supplier": "LCSC",
+              "Supplier Part": "C133350",
+              "link": NaN
+            },
+            {
+              "ID": 3,
+              "Name": "LM1881NNOPB",
+              "Designator": "U9",
+              "Footprint": "DIP8",
+              "Quantity": 1,
+              "Manufacturer Part": "LM1881N/NOPB",
+              "Manufacturer": "Texas Instruments",
+              "Supplier": "Digi-Key",
+              "Supplier Part": "LM1881N/NOPB-ND",
+              "link": "https://www.digikey.com/product-detail/en/texas-instruments/LM1881N-NOPB/LM1881N-NOPB-ND/28100"
+            }
+          ],
+          "separator": "\t"
+        }
+      ],
+      "analysis_time": "2024-12-10T09:22:47.329409"
+    },
+    {
+      "repo_url": "https://github.com/emard/ulx3s",
+      "bom_count": 9,
+      "patterns": [
+        {
+          "type": "csv",
+          "path": "doc/ulx3s_bom.csv",
+          "columns": [
+            "Component",
+            "Description",
+            "Part",
+            "References",
+            "Value",
+            "Footprint",
+            "Quantity Per PCB",
+            "Datasheet",
+            "Koncar",
+            "Vertical",
+            "MNF1_URL",
+            "MPN",
+            "MFG1",
+            "Digikey",
+            "price100_Vertical",
+            "Side",
+            "Mouser",
+            "price700_LCSC",
+            "LCSC",
+            "price100_RS",
+            "RS",
+            "MPN3",
+            "Digike_y3",
+            "MNF3_URL",
+            "Digike_y2",
+            "MPN2",
+            "MFG2",
+            "MFG3",
+            "Datasheet3",
+            "MNF2_URL",
+            "Mouse_r2",
+            "price1500_Mouser",
+            "Mouse_r3",
+            "Mouse_r4",
+            "Mouse_r5",
+            "price1200_Chip1stop",
+            "Chip1stop",
+            "price200_Mouser",
+            "MP_N3",
+            "MP_N2",
+            "Datasheet2",
+            "LowCost",
+            "price300_LCSC",
+            "TME",
+            "price300_TME",
+            "price200_LCSC",
+            "price400_LCSC",
+            "Mouser_URL",
+            "price100_AvnetEU",
+            "AvnetEU",
+            "price100_Mouser",
+            "price100_Onlinecomponents",
+            "Onlinecomponents",
+            "price300_Vertical",
+            "DatasheetLC",
+            "MP_N4",
+            "MFG4",
+            "MP_N5",
+            "price_Arrow",
+            "Arrow",
+            "price100_LCSC",
+            "Aliexpress",
+            "Dtasheet4",
+            "MPN4",
+            "MNF4_URL",
+            "price100_Mouse",
+            "Footprint_URL",
+            "price100_Digikey",
+            "Datasheet_errata",
+            "MFG2_TR_DS",
+            "price100_Arrow",
+            "Datasheet4",
+            "price100_Mouse_r2",
+            "price100_Newark",
+            "Newark",
+            "FreelanceElec",
+            "Digikey2",
+            "price200_FreelanceElec",
+            "price100_TME"
+          ],
+          "row_count": 62,
+          "sample_rows": [
+            {
+              "Component": "1",
+              "Description": "audio jack TRS 6 pins apple/nokia",
+              "Part": "JACK_TRS_6PINS_APPLE",
+              "References": "AUDIO1",
+              "Value": "JACK_TRS_6PINS",
+              "Footprint": "CUI_SJ-43516-SMT",
+              "Quantity Per PCB": 1.0,
+              "Datasheet": "http://www.cui.com/product/resource/sj-4351x-smt-series.pdf",
+              "Koncar": "FAU001",
+              "Vertical": "SJ-43516-SMT-TR",
+              "MNF1_URL": "www.cui.com",
+              "MPN": "SJ-43516-SMT-TR",
+              "MFG1": "CUI",
+              "Digikey": "CP-43516SJCT-ND",
+              "price100_Vertical": "0.8015$",
+              "Side": "T",
+              "Mouser": "490-SJ-43516-SMT-TR",
+              "price700_LCSC": NaN,
+              "LCSC": NaN,
+              "price100_RS": NaN,
+              "RS": NaN,
+              "MPN3": NaN,
+              "Digike_y3": NaN,
+              "MNF3_URL": NaN,
+              "Digike_y2": NaN,
+              "MPN2": NaN,
+              "MFG2": NaN,
+              "MFG3": NaN,
+              "Datasheet3": NaN,
+              "MNF2_URL": NaN,
+              "Mouse_r2": NaN,
+              "price1500_Mouser": NaN,
+              "Mouse_r3": NaN,
+              "Mouse_r4": NaN,
+              "Mouse_r5": NaN,
+              "price1200_Chip1stop": NaN,
+              "Chip1stop": NaN,
+              "price200_Mouser": NaN,
+              "MP_N3": NaN,
+              "MP_N2": NaN,
+              "Datasheet2": NaN,
+              "LowCost": NaN,
+              "price300_LCSC": NaN,
+              "TME": NaN,
+              "price300_TME": NaN,
+              "price200_LCSC": NaN,
+              "price400_LCSC": NaN,
+              "Mouser_URL": NaN,
+              "price100_AvnetEU": NaN,
+              "AvnetEU": NaN,
+              "price100_Mouser": NaN,
+              "price100_Onlinecomponents": NaN,
+              "Onlinecomponents": NaN,
+              "price300_Vertical": NaN,
+              "DatasheetLC": NaN,
+              "MP_N4": NaN,
+              "MFG4": NaN,
+              "MP_N5": NaN,
+              "price_Arrow": NaN,
+              "Arrow": NaN,
+              "price100_LCSC": NaN,
+              "Aliexpress": NaN,
+              "Dtasheet4": NaN,
+              "MPN4": NaN,
+              "MNF4_URL": NaN,
+              "price100_Mouse": NaN,
+              "Footprint_URL": NaN,
+              "price100_Digikey": NaN,
+              "Datasheet_errata": NaN,
+              "MFG2_TR_DS": NaN,
+              "price100_Arrow": NaN,
+              "Datasheet4": NaN,
+              "price100_Mouse_r2": NaN,
+              "price100_Newark": NaN,
+              "Newark": NaN,
+              "FreelanceElec": NaN,
+              "Digikey2": NaN,
+              "price200_FreelanceElec": NaN,
+              "price100_TME": NaN
+            },
+            {
+              "Component": "2",
+              "Description": "Push button switch, generic, two pins",
+              "Part": "SW_Push",
+              "References": "B0 B1 B2 B3 B4 B5 B6",
+              "Value": "PTS645",
+              "Footprint": "SW_SPST_PTS645",
+              "Quantity Per PCB": 7.0,
+              "Datasheet": "http://www.ckswitches.com/media/1471/pts645.pdf",
+              "Koncar": "FSW001",
+              "Vertical": NaN,
+              "MNF1_URL": "www.ckswitches.com",
+              "MPN": "PTS645SL50SMTR92 LFS",
+              "MFG1": NaN,
+              "Digikey": "CKN9088CT-ND",
+              "price100_Vertical": NaN,
+              "Side": "T",
+              "Mouser": "611-PTS645SL50SMTR92",
+              "price700_LCSC": "0.09966$",
+              "LCSC": "C221877",
+              "price100_RS": NaN,
+              "RS": NaN,
+              "MPN3": NaN,
+              "Digike_y3": NaN,
+              "MNF3_URL": NaN,
+              "Digike_y2": NaN,
+              "MPN2": NaN,
+              "MFG2": NaN,
+              "MFG3": NaN,
+              "Datasheet3": NaN,
+              "MNF2_URL": NaN,
+              "Mouse_r2": NaN,
+              "price1500_Mouser": NaN,
+              "Mouse_r3": NaN,
+              "Mouse_r4": NaN,
+              "Mouse_r5": NaN,
+              "price1200_Chip1stop": NaN,
+              "Chip1stop": NaN,
+              "price200_Mouser": NaN,
+              "MP_N3": NaN,
+              "MP_N2": NaN,
+              "Datasheet2": NaN,
+              "LowCost": NaN,
+              "price300_LCSC": NaN,
+              "TME": NaN,
+              "price300_TME": NaN,
+              "price200_LCSC": NaN,
+              "price400_LCSC": NaN,
+              "Mouser_URL": NaN,
+              "price100_AvnetEU": NaN,
+              "AvnetEU": NaN,
+              "price100_Mouser": NaN,
+              "price100_Onlinecomponents": NaN,
+              "Onlinecomponents": NaN,
+              "price300_Vertical": NaN,
+              "DatasheetLC": NaN,
+              "MP_N4": NaN,
+              "MFG4": NaN,
+              "MP_N5": NaN,
+              "price_Arrow": NaN,
+              "Arrow": NaN,
+              "price100_LCSC": NaN,
+              "Aliexpress": NaN,
+              "Dtasheet4": NaN,
+              "MPN4": NaN,
+              "MNF4_URL": NaN,
+              "price100_Mouse": NaN,
+              "Footprint_URL": NaN,
+              "price100_Digikey": NaN,
+              "Datasheet_errata": NaN,
+              "MFG2_TR_DS": NaN,
+              "price100_Arrow": NaN,
+              "Datasheet4": NaN,
+              "price100_Mouse_r2": NaN,
+              "price100_Newark": NaN,
+              "Newark": NaN,
+              "FreelanceElec": NaN,
+              "Digikey2": NaN,
+              "price200_FreelanceElec": NaN,
+              "price100_TME": NaN
+            },
+            {
+              "Component": "3",
+              "Description": "Single-cell battery",
+              "Part": "Battery_Cell",
+              "References": "BAT1",
+              "Value": "CR1225",
+              "Footprint": "Keystone_3000_1x12mm-CoinCell",
+              "Quantity Per PCB": 1.0,
+              "Datasheet": "http://www.keyelco.com/product-pdf.cfm?p=777",
+              "Koncar": "FBAT001",
+              "Vertical": NaN,
+              "MNF1_URL": "www.keyelco.com",
+              "MPN": "3000TR",
+              "MFG1": "Keystone",
+              "Digikey": "BK-885-ND",
+              "price100_Vertical": NaN,
+              "Side": NaN,
+              "Mouser": "855-S8201-46R",
+              "price700_LCSC": NaN,
+              "LCSC": NaN,
+              "price100_RS": "0.33296$",
+              "RS": 1613707.0,
+              "MPN3": "S8201-46R",
+              "Digike_y3": "952-1662-1-ND",
+              "MNF3_URL": "www.harwin.com",
+              "Digike_y2": "36-3000CT-ND",
+              "MPN2": "BK-885",
+              "MFG2": "MPD",
+              "MFG3": "Harwin",
+              "Datasheet3": "https://cdn.harwin.com/pdfs/S8201R.pdf",
+              "MNF2_URL": "www.memoryprotectiondevices.com",
+              "Mouse_r2": NaN,
+              "price1500_Mouser": NaN,
+              "Mouse_r3": NaN,
+              "Mouse_r4": NaN,
+              "Mouse_r5": NaN,
+              "price1200_Chip1stop": NaN,
+              "Chip1stop": NaN,
+              "price200_Mouser": NaN,
+              "MP_N3": NaN,
+              "MP_N2": NaN,
+              "Datasheet2": NaN,
+              "LowCost": NaN,
+              "price300_LCSC": NaN,
+              "TME": NaN,
+              "price300_TME": NaN,
+              "price200_LCSC": NaN,
+              "price400_LCSC": NaN,
+              "Mouser_URL": NaN,
+              "price100_AvnetEU": NaN,
+              "AvnetEU": NaN,
+              "price100_Mouser": NaN,
+              "price100_Onlinecomponents": NaN,
+              "Onlinecomponents": NaN,
+              "price300_Vertical": NaN,
+              "DatasheetLC": NaN,
+              "MP_N4": NaN,
+              "MFG4": NaN,
+              "MP_N5": NaN,
+              "price_Arrow": NaN,
+              "Arrow": NaN,
+              "price100_LCSC": NaN,
+              "Aliexpress": NaN,
+              "Dtasheet4": NaN,
+              "MPN4": NaN,
+              "MNF4_URL": NaN,
+              "price100_Mouse": NaN,
+              "Footprint_URL": NaN,
+              "price100_Digikey": NaN,
+              "Datasheet_errata": NaN,
+              "MFG2_TR_DS": NaN,
+              "price100_Arrow": NaN,
+              "Datasheet4": NaN,
+              "price100_Mouse_r2": NaN,
+              "price100_Newark": NaN,
+              "Newark": NaN,
+              "FreelanceElec": NaN,
+              "Digikey2": NaN,
+              "price200_FreelanceElec": NaN,
+              "price100_TME": NaN
+            }
+          ],
+          "separator": ","
+        },
+        {
+          "type": "csv",
+          "path": "doc/assembly/ulx3s_bom_3.0.3_bot.csv",
+          "columns": [
+            "Koncar",
+            "References",
+            "Quantity Per Side",
+            "Mouser",
+            "MPN/Value",
+            "Description",
+            "Footprint"
+          ],
+          "row_count": 35,
+          "sample_rows": [
+            {
+              "Koncar": "FBAT001",
+              "References": "BAT1",
+              "Quantity Per Side": 1,
+              "Mouser": "855-S8201-46R",
+              "MPN/Value": "S8201-46R",
+              "Description": "Battery holder",
+              "Footprint": "SMD 2-pin"
+            },
+            {
+              "Koncar": "FC004",
+              "References": "C1 C3 C4 C5 C7 C8 C9 C11 C12 C15 C21 C54 C55 C58",
+              "Quantity Per Side": 14,
+              "Mouser": "81-GRM21BR61A226ME1L",
+              "MPN/Value": "22uF",
+              "Description": "C",
+              "Footprint": "805"
+            },
+            {
+              "Koncar": "FC001",
+              "References": "C13 C16 C17 C19 C20 C22 C23 C24 C46 C47",
+              "Quantity Per Side": 10,
+              "Mouser": "80-C0805C225K4R3123",
+              "MPN/Value": "2.2uF",
+              "Description": "C",
+              "Footprint": "805"
+            }
+          ],
+          "separator": ","
+        },
+        {
+          "type": "csv",
+          "path": "doc/assembly/ulx3s_bom_3.0.3_top.csv",
+          "columns": [
+            "Koncar",
+            "References",
+            "Quantity Per Side",
+            "Mouser",
+            "MPN/Value",
+            "Description",
+            "Footprint"
+          ],
+          "row_count": 17,
+          "sample_rows": [
+            {
+              "Koncar": "FAU001",
+              "References": "AUDIO1",
+              "Quantity Per Side": 1,
+              "Mouser": "490-SJ-43516-SMT-TR",
+              "MPN/Value": "SJ-43516-SMT-TR",
+              "Description": "AUDIO 3.5mm",
+              "Footprint": "SMD 6-pin"
+            },
+            {
+              "Koncar": "FSW001",
+              "References": "B0 B1 B2 B3 B4 B5 B6",
+              "Quantity Per Side": 7,
+              "Mouser": "611-PTS645SL50SMTR92",
+              "MPN/Value": "PTS645",
+              "Description": "PUSH BUTTON",
+              "Footprint": "SMD 4-pin"
+            },
+            {
+              "Koncar": "FC002",
+              "References": "C36 C37 C38 C39 C40 C41 C42 C43 C44 C45",
+              "Quantity Per Side": 10,
+              "Mouser": "81-GCM188R71E224K55D",
+              "MPN/Value": "220nF",
+              "Description": "C",
+              "Footprint": "603"
+            }
+          ],
+          "separator": ","
+        },
+        {
+          "type": "csv",
+          "path": "doc/old/bom-ulx3s-v1.7.6.csv",
+          "columns": [
+            "FOOTPRINT",
+            "QUANTITY",
+            "REF",
+            "VALUE",
+            "Unnamed: 4",
+            "Unnamed: 5"
+          ],
+          "row_count": 57,
+          "sample_rows": [
+            {
+              "FOOTPRINT": "Buttons_Switches_SMD:SW_DIP_x4_W8.61mm_Slide_LowProfile",
+              "QUANTITY": 1,
+              "REF": "SW1",
+              "VALUE": "DIPSW",
+              "Unnamed: 4": NaN,
+              "Unnamed: 5": "219-4MST"
+            },
+            {
+              "FOOTPRINT": "Buttons_Switches_SMD:SW_SPST_PTS645",
+              "QUANTITY": 7,
+              "REF": "BTN0-6",
+              "VALUE": "PushButton SMD",
+              "Unnamed: 4": NaN,
+              "Unnamed: 5": "PTS645SL50SMTR92 LFS"
+            },
+            {
+              "FOOTPRINT": "Capacitors_SMD:C_0603_HandSoldering",
+              "QUANTITY": 1,
+              "REF": "C14",
+              "VALUE": "100nF",
+              "Unnamed: 4": NaN,
+              "Unnamed: 5": NaN
+            }
+          ],
+          "separator": ";"
+        },
+        {
+          "type": "csv",
+          "path": "doc/old/parts-cost-estimate.csv",
+          "columns": [
+            "Mfr Part Number (Input)",
+            "Quantity 1",
+            "Mfr Part Number",
+            "Mouser Part Number",
+            "Manufacturer Name",
+            "Description",
+            "Unit Price 1",
+            "Order Quantity",
+            "Order Unit Price",
+            "$81.85"
+          ],
+          "row_count": 60,
+          "sample_rows": [
+            {
+              "Mfr Part Number (Input)": "SJ-43516-SMT-TR",
+              "Quantity 1": 1,
+              "Mfr Part Number": "$1.11",
+              "Mouser Part Number": "490-SJ-43516-SMT-TR",
+              "Manufacturer Name": "CUI Inc.",
+              "Description": "Phone Connectors Phone Connectors Audio Jacks",
+              "Unit Price 1": "$1.11",
+              "Order Quantity": 1.0,
+              "Order Unit Price": "$1.11",
+              "$81.85": "$1.11"
+            },
+            {
+              "Mfr Part Number (Input)": "3000TR",
+              "Quantity 1": 1,
+              "Mfr Part Number": "$0.64",
+              "Mouser Part Number": "534-3000TR",
+              "Manufacturer Name": "Keystone Electronics",
+              "Description": "Coin Cell Battery Holders Coin Cell Battery Holders SM COIN CELL B/H",
+              "Unit Price 1": "$0.641",
+              "Order Quantity": 1.0,
+              "Order Unit Price": "$0.641",
+              "$81.85": "$0.64"
+            },
+            {
+              "Mfr Part Number (Input)": "PTS645SL50SMTR92 LFS",
+              "Quantity 1": 7,
+              "Mfr Part Number": "$0.27",
+              "Mouser Part Number": "611-PTS645SL50SMTR92",
+              "Manufacturer Name": "C&K Switches",
+              "Description": "Tactile Switches Tactile Switches",
+              "Unit Price 1": "$0.266",
+              "Order Quantity": 7.0,
+              "Order Unit Price": "$0.266",
+              "$81.85": "$1.86"
+            }
+          ],
+          "separator": ";"
+        },
+        {
+          "type": "csv",
+          "path": "doc/old/ulx3s_bom_1.8.csv",
+          "columns": [
+            "Component",
+            "Description",
+            "Part",
+            "References",
+            "Value",
+            "Footprint",
+            "Quantity Per PCB",
+            "Datasheet",
+            "Note",
+            "MFG_URL",
+            "Distributor1_PN",
+            "MFG_PN",
+            "Distributor1_URL",
+            "Distributor2_URL",
+            "Distributor2_PN",
+            "MFG_TR_DS"
+          ],
+          "row_count": 72,
+          "sample_rows": [
+            {
+              "Component": "1",
+              "Description": "Antenna symbol",
+              "Part": "Antenna",
+              "References": "AE1",
+              "Value": "433MHz",
+              "Footprint": "Pin_Header_Straight_1x03_Pitch2.54mm",
+              "Quantity Per PCB": 1.0,
+              "Datasheet": NaN,
+              "Note": "Do not install",
+              "MFG_URL": NaN,
+              "Distributor1_PN": NaN,
+              "MFG_PN": NaN,
+              "Distributor1_URL": NaN,
+              "Distributor2_URL": NaN,
+              "Distributor2_PN": NaN,
+              "MFG_TR_DS": NaN
+            },
+            {
+              "Component": "2",
+              "Description": "audio jack TRS 6 pins",
+              "Part": "JACK_TRS_6PINS",
+              "References": "AUDIO1",
+              "Value": "JACK_TRS_6PINS",
+              "Footprint": "CUI_SJ-43516-SMT",
+              "Quantity Per PCB": 1.0,
+              "Datasheet": "http://www.cui.com/product/resource/sj-4351x-smt-series.pdf",
+              "Note": NaN,
+              "MFG_URL": "www.cui.com",
+              "Distributor1_PN": "490-SJ-43516-SMT-TR",
+              "MFG_PN": "SJ-43516-SMT-TR",
+              "Distributor1_URL": "www.mouser.com",
+              "Distributor2_URL": NaN,
+              "Distributor2_PN": NaN,
+              "MFG_TR_DS": NaN
+            },
+            {
+              "Component": "3",
+              "Description": "single battery cell",
+              "Part": "Battery_Cell",
+              "References": "BAT1",
+              "Value": "CR1225",
+              "Footprint": "Keystone_3000_1x12mm-CoinCell",
+              "Quantity Per PCB": 1.0,
+              "Datasheet": "http://www.keyelco.com/product-pdf.cfm?p=777",
+              "Note": NaN,
+              "MFG_URL": "www.keyelco.com",
+              "Distributor1_PN": "534-3000TR",
+              "MFG_PN": "3000",
+              "Distributor1_URL": "www.mouser.com",
+              "Distributor2_URL": NaN,
+              "Distributor2_PN": NaN,
+              "MFG_TR_DS": NaN
+            }
+          ],
+          "separator": ","
+        },
+        {
+          "type": "csv",
+          "path": "plot/ulx3s/ulx3s_bom.csv",
+          "columns": [
+            "Component",
+            "Description",
+            "Part",
+            "References",
+            "Value",
+            "Footprint",
+            "Quantity Per PCB",
+            "Datasheet",
+            "Koncar",
+            "Vertical",
+            "MNF1_URL",
+            "MPN",
+            "MFG1",
+            "Digikey",
+            "price100_Vertical",
+            "Side",
+            "Mouser",
+            "price700_LCSC",
+            "LCSC",
+            "price100_RS",
+            "RS",
+            "MPN3",
+            "Digike_y3",
+            "MNF3_URL",
+            "Digike_y2",
+            "MPN2",
+            "MFG2",
+            "MFG3",
+            "Datasheet3",
+            "MNF2_URL",
+            "Mouse_r2",
+            "price1500_Mouser",
+            "Mouse_r3",
+            "Mouse_r4",
+            "Mouse_r5",
+            "price1200_Chip1stop",
+            "Chip1stop",
+            "price200_Mouser",
+            "MP_N3",
+            "MP_N2",
+            "Datasheet2",
+            "LowCost",
+            "price300_LCSC",
+            "TME",
+            "price300_TME",
+            "price200_LCSC",
+            "price400_LCSC",
+            "Mouser_URL",
+            "price100_AvnetEU",
+            "AvnetEU",
+            "price100_Mouser",
+            "price100_Onlinecomponents",
+            "Onlinecomponents",
+            "price300_Vertical",
+            "DatasheetLC",
+            "MP_N4",
+            "MFG4",
+            "MP_N5",
+            "price_Arrow",
+            "Arrow",
+            "price100_LCSC",
+            "Aliexpress",
+            "Dtasheet4",
+            "MPN4",
+            "MNF4_URL",
+            "price100_Mouse",
+            "Footprint_URL",
+            "price100_Digikey",
+            "Datasheet_errata",
+            "MFG2_TR_DS",
+            "price100_Arrow",
+            "Datasheet4",
+            "price100_Mouse_r2",
+            "price100_Newark",
+            "Newark",
+            "FreelanceElec",
+            "Digikey2",
+            "price200_FreelanceElec",
+            "price100_TME"
+          ],
+          "row_count": 62,
+          "sample_rows": [
+            {
+              "Component": "1",
+              "Description": "audio jack TRS 6 pins apple/nokia",
+              "Part": "JACK_TRS_6PINS_APPLE",
+              "References": "AUDIO1",
+              "Value": "JACK_TRS_6PINS",
+              "Footprint": "CUI_SJ-43516-SMT",
+              "Quantity Per PCB": 1.0,
+              "Datasheet": "http://www.cui.com/product/resource/sj-4351x-smt-series.pdf",
+              "Koncar": "FAU001",
+              "Vertical": "SJ-43516-SMT-TR",
+              "MNF1_URL": "www.cui.com",
+              "MPN": "SJ-43516-SMT-TR",
+              "MFG1": "CUI",
+              "Digikey": "CP-43516SJCT-ND",
+              "price100_Vertical": "0.8015$",
+              "Side": "T",
+              "Mouser": "490-SJ-43516-SMT-TR",
+              "price700_LCSC": NaN,
+              "LCSC": NaN,
+              "price100_RS": NaN,
+              "RS": NaN,
+              "MPN3": NaN,
+              "Digike_y3": NaN,
+              "MNF3_URL": NaN,
+              "Digike_y2": NaN,
+              "MPN2": NaN,
+              "MFG2": NaN,
+              "MFG3": NaN,
+              "Datasheet3": NaN,
+              "MNF2_URL": NaN,
+              "Mouse_r2": NaN,
+              "price1500_Mouser": NaN,
+              "Mouse_r3": NaN,
+              "Mouse_r4": NaN,
+              "Mouse_r5": NaN,
+              "price1200_Chip1stop": NaN,
+              "Chip1stop": NaN,
+              "price200_Mouser": NaN,
+              "MP_N3": NaN,
+              "MP_N2": NaN,
+              "Datasheet2": NaN,
+              "LowCost": NaN,
+              "price300_LCSC": NaN,
+              "TME": NaN,
+              "price300_TME": NaN,
+              "price200_LCSC": NaN,
+              "price400_LCSC": NaN,
+              "Mouser_URL": NaN,
+              "price100_AvnetEU": NaN,
+              "AvnetEU": NaN,
+              "price100_Mouser": NaN,
+              "price100_Onlinecomponents": NaN,
+              "Onlinecomponents": NaN,
+              "price300_Vertical": NaN,
+              "DatasheetLC": NaN,
+              "MP_N4": NaN,
+              "MFG4": NaN,
+              "MP_N5": NaN,
+              "price_Arrow": NaN,
+              "Arrow": NaN,
+              "price100_LCSC": NaN,
+              "Aliexpress": NaN,
+              "Dtasheet4": NaN,
+              "MPN4": NaN,
+              "MNF4_URL": NaN,
+              "price100_Mouse": NaN,
+              "Footprint_URL": NaN,
+              "price100_Digikey": NaN,
+              "Datasheet_errata": NaN,
+              "MFG2_TR_DS": NaN,
+              "price100_Arrow": NaN,
+              "Datasheet4": NaN,
+              "price100_Mouse_r2": NaN,
+              "price100_Newark": NaN,
+              "Newark": NaN,
+              "FreelanceElec": NaN,
+              "Digikey2": NaN,
+              "price200_FreelanceElec": NaN,
+              "price100_TME": NaN
+            },
+            {
+              "Component": "2",
+              "Description": "Push button switch, generic, two pins",
+              "Part": "SW_Push",
+              "References": "B0 B1 B2 B3 B4 B5 B6",
+              "Value": "PTS645",
+              "Footprint": "SW_SPST_PTS645",
+              "Quantity Per PCB": 7.0,
+              "Datasheet": "http://www.ckswitches.com/media/1471/pts645.pdf",
+              "Koncar": "FSW001",
+              "Vertical": NaN,
+              "MNF1_URL": "www.ckswitches.com",
+              "MPN": "PTS645SL50SMTR92 LFS",
+              "MFG1": NaN,
+              "Digikey": "CKN9088CT-ND",
+              "price100_Vertical": NaN,
+              "Side": "T",
+              "Mouser": "611-PTS645SL50SMTR92",
+              "price700_LCSC": "0.09966$",
+              "LCSC": "C221877",
+              "price100_RS": NaN,
+              "RS": NaN,
+              "MPN3": NaN,
+              "Digike_y3": NaN,
+              "MNF3_URL": NaN,
+              "Digike_y2": NaN,
+              "MPN2": NaN,
+              "MFG2": NaN,
+              "MFG3": NaN,
+              "Datasheet3": NaN,
+              "MNF2_URL": NaN,
+              "Mouse_r2": NaN,
+              "price1500_Mouser": NaN,
+              "Mouse_r3": NaN,
+              "Mouse_r4": NaN,
+              "Mouse_r5": NaN,
+              "price1200_Chip1stop": NaN,
+              "Chip1stop": NaN,
+              "price200_Mouser": NaN,
+              "MP_N3": NaN,
+              "MP_N2": NaN,
+              "Datasheet2": NaN,
+              "LowCost": NaN,
+              "price300_LCSC": NaN,
+              "TME": NaN,
+              "price300_TME": NaN,
+              "price200_LCSC": NaN,
+              "price400_LCSC": NaN,
+              "Mouser_URL": NaN,
+              "price100_AvnetEU": NaN,
+              "AvnetEU": NaN,
+              "price100_Mouser": NaN,
+              "price100_Onlinecomponents": NaN,
+              "Onlinecomponents": NaN,
+              "price300_Vertical": NaN,
+              "DatasheetLC": NaN,
+              "MP_N4": NaN,
+              "MFG4": NaN,
+              "MP_N5": NaN,
+              "price_Arrow": NaN,
+              "Arrow": NaN,
+              "price100_LCSC": NaN,
+              "Aliexpress": NaN,
+              "Dtasheet4": NaN,
+              "MPN4": NaN,
+              "MNF4_URL": NaN,
+              "price100_Mouse": NaN,
+              "Footprint_URL": NaN,
+              "price100_Digikey": NaN,
+              "Datasheet_errata": NaN,
+              "MFG2_TR_DS": NaN,
+              "price100_Arrow": NaN,
+              "Datasheet4": NaN,
+              "price100_Mouse_r2": NaN,
+              "price100_Newark": NaN,
+              "Newark": NaN,
+              "FreelanceElec": NaN,
+              "Digikey2": NaN,
+              "price200_FreelanceElec": NaN,
+              "price100_TME": NaN
+            },
+            {
+              "Component": "3",
+              "Description": "Single-cell battery",
+              "Part": "Battery_Cell",
+              "References": "BAT1",
+              "Value": "CR1225",
+              "Footprint": "Keystone_3000_1x12mm-CoinCell",
+              "Quantity Per PCB": 1.0,
+              "Datasheet": "http://www.keyelco.com/product-pdf.cfm?p=777",
+              "Koncar": "FBAT001",
+              "Vertical": NaN,
+              "MNF1_URL": "www.keyelco.com",
+              "MPN": "3000TR",
+              "MFG1": "Keystone",
+              "Digikey": "BK-885-ND",
+              "price100_Vertical": NaN,
+              "Side": NaN,
+              "Mouser": "855-S8201-46R",
+              "price700_LCSC": NaN,
+              "LCSC": NaN,
+              "price100_RS": "0.33296$",
+              "RS": 1613707.0,
+              "MPN3": "S8201-46R",
+              "Digike_y3": "952-1662-1-ND",
+              "MNF3_URL": "www.harwin.com",
+              "Digike_y2": "36-3000CT-ND",
+              "MPN2": "BK-885",
+              "MFG2": "MPD",
+              "MFG3": "Harwin",
+              "Datasheet3": "https://cdn.harwin.com/pdfs/S8201R.pdf",
+              "MNF2_URL": "www.memoryprotectiondevices.com",
+              "Mouse_r2": NaN,
+              "price1500_Mouser": NaN,
+              "Mouse_r3": NaN,
+              "Mouse_r4": NaN,
+              "Mouse_r5": NaN,
+              "price1200_Chip1stop": NaN,
+              "Chip1stop": NaN,
+              "price200_Mouser": NaN,
+              "MP_N3": NaN,
+              "MP_N2": NaN,
+              "Datasheet2": NaN,
+              "LowCost": NaN,
+              "price300_LCSC": NaN,
+              "TME": NaN,
+              "price300_TME": NaN,
+              "price200_LCSC": NaN,
+              "price400_LCSC": NaN,
+              "Mouser_URL": NaN,
+              "price100_AvnetEU": NaN,
+              "AvnetEU": NaN,
+              "price100_Mouser": NaN,
+              "price100_Onlinecomponents": NaN,
+              "Onlinecomponents": NaN,
+              "price300_Vertical": NaN,
+              "DatasheetLC": NaN,
+              "MP_N4": NaN,
+              "MFG4": NaN,
+              "MP_N5": NaN,
+              "price_Arrow": NaN,
+              "Arrow": NaN,
+              "price100_LCSC": NaN,
+              "Aliexpress": NaN,
+              "Dtasheet4": NaN,
+              "MPN4": NaN,
+              "MNF4_URL": NaN,
+              "price100_Mouse": NaN,
+              "Footprint_URL": NaN,
+              "price100_Digikey": NaN,
+              "Datasheet_errata": NaN,
+              "MFG2_TR_DS": NaN,
+              "price100_Arrow": NaN,
+              "Datasheet4": NaN,
+              "price100_Mouse_r2": NaN,
+              "price100_Newark": NaN,
+              "Newark": NaN,
+              "FreelanceElec": NaN,
+              "Digikey2": NaN,
+              "price200_FreelanceElec": NaN,
+              "price100_TME": NaN
+            }
+          ],
+          "separator": ","
+        },
+        {
+          "type": "csv",
+          "path": "old/plot/koncar/ulx3s_bom_3.0.3_dolje.csv",
+          "columns": [
+            "Koncar",
+            "References",
+            "Quantity Per Side",
+            "Mouser",
+            "MPN/Value",
+            "Description",
+            "Footprint",
+            "Unnamed: 7",
+            "treba",
+            "ima",
+            "Unnamed: 10"
+          ],
+          "row_count": 35,
+          "sample_rows": [
+            {
+              "Koncar": "FBAT001",
+              "References": "BAT1",
+              "Quantity Per Side": 1,
+              "Mouser": "855-S8201-46R",
+              "MPN/Value": "S8201-46R",
+              "Description": "Battery holder",
+              "Footprint": "SMD 2-pin",
+              "Unnamed: 7": "ok",
+              "treba": 35,
+              "ima": 35,
+              "Unnamed: 10": NaN
+            },
+            {
+              "Koncar": "FC004",
+              "References": "C1 C3 C4 C5 C7 C8 C9 C11 C12 C15 C21 C54 C55 C58",
+              "Quantity Per Side": 14,
+              "Mouser": "81-GRM21BR61A226ME1L",
+              "MPN/Value": "22uF",
+              "Description": "C",
+              "Footprint": "805",
+              "Unnamed: 7": "ok",
+              "treba": 490,
+              "ima": 510,
+              "Unnamed: 10": NaN
+            },
+            {
+              "Koncar": "FC001",
+              "References": "C13 C16 C17 C19 C20 C22 C23 C24 C46 C47",
+              "Quantity Per Side": 10,
+              "Mouser": "80-C0805C225K4R3123",
+              "MPN/Value": "2.2uF",
+              "Description": "C",
+              "Footprint": "805",
+              "Unnamed: 7": "ok",
+              "treba": 350,
+              "ima": 270,
+              "Unnamed: 10": "Dodat 100"
+            }
+          ],
+          "separator": ","
+        },
+        {
+          "type": "csv",
+          "path": "old/plot/koncar/ulx3s_bom_3.0.3_gore.csv",
+          "columns": [
+            "Koncar",
+            "References",
+            "Quantity Per Side",
+            "Mouser",
+            "MPN/Value",
+            "Description",
+            "Footprint",
+            "Unnamed: 7",
+            "treba",
+            "ima",
+            "Unnamed: 10"
+          ],
+          "row_count": 17,
+          "sample_rows": [
+            {
+              "Koncar": "FAU001",
+              "References": "AUDIO1",
+              "Quantity Per Side": 1,
+              "Mouser": "490-SJ-43516-SMT-TR",
+              "MPN/Value": "SJ-43516-SMT-TR",
+              "Description": "AUDIO 3.5mm",
+              "Footprint": "SMD 6-pin",
+              "Unnamed: 7": "ok",
+              "treba": 35,
+              "ima": 35,
+              "Unnamed: 10": "Dodat 5"
+            },
+            {
+              "Koncar": "FSW001",
+              "References": "B0 B1 B2 B3 B4 B5 B6",
+              "Quantity Per Side": 7,
+              "Mouser": "611-PTS645SL50SMTR92",
+              "MPN/Value": "PTS645",
+              "Description": "PUSH BUTTON",
+              "Footprint": "SMD 4-pin",
+              "Unnamed: 7": "ok",
+              "treba": 245,
+              "ima": 245,
+              "Unnamed: 10": "Dodat 5"
+            },
+            {
+              "Koncar": "FC002",
+              "References": "C36 C37 C38 C39 C40 C41 C42 C43 C44 C45",
+              "Quantity Per Side": 10,
+              "Mouser": "81-GCM188R71E224K55D",
+              "MPN/Value": "220nF",
+              "Description": "C",
+              "Footprint": "603",
+              "Unnamed: 7": "ok",
+              "treba": 350,
+              "ima": 480,
+              "Unnamed: 10": "-dolje 105"
+            }
+          ],
+          "separator": ","
+        }
+      ],
+      "analysis_time": "2024-12-10T09:23:54.862235"
+    },
+    {
+      "repo_url": "https://github.com/intergalaktik/ulx4m",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:25:06.591766"
+    },
+    {
+      "repo_url": "https://github.com/Blaster1920/Universal-3D-Printer-PDB",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:25:10.409383"
+    },
+    {
+      "repo_url": "https://github.com/dotcypress/upico",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:25:19.185777"
+    },
+    {
+      "repo_url": "https://github.com/dilshan/usb-morse-keyer",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:25:22.933319"
+    },
+    {
+      "repo_url": "https://github.com/Board-Outline/USB-Power-Injector",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:25:31.739522"
+    },
+    {
+      "repo_url": "https://github.com/dilshan/usb-external-display",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:25:45.836013"
+    },
+    {
+      "repo_url": "https://github.com/watterott/USB-Isolator",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:25:47.808680"
+    },
+    {
+      "repo_url": "https://github.com/neilrhardy9/USonic-Theremin",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:25:49.816748"
+    },
+    {
+      "repo_url": "https://github.com/GMarkus16/Proyecto-IoT",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:25:51.208995"
+    },
+    {
+      "repo_url": "https://github.com/watterott/VEML6030-Breakout",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:25:53.304041"
+    },
+    {
+      "repo_url": "https://github.com/watterott/VEML6070-Breakout",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:25:56.073246"
+    },
+    {
+      "repo_url": "https://github.com/watterott/VEML7700-Breakout",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:25:58.151535"
+    },
+    {
+      "repo_url": "https://github.com/PubInv/ventmon-ventilator-inline-test-monitor",
+      "bom_count": 2,
+      "patterns": [
+        {
+          "type": "csv",
+          "path": "design/pcb/VentMon T0.3 BOM.csv",
+          "columns": [
+            "Description",
+            "Qty",
+            "RefDes",
+            "Mfg",
+            "Mfg PN"
+          ],
+          "row_count": 35,
+          "sample_rows": [
+            {
+              "Description": "CONN HDR 2POS 0.1 TIN PCB",
+              "Qty": 2,
+              "RefDes": "J2, J3",
+              "Mfg": "Sullins Connector Solutions",
+              "Mfg PN": "PPTC021LFBN-RC"
+            },
+            {
+              "Description": "CONN HDR 3POS 0.1 TIN PCB",
+              "Qty": 1,
+              "RefDes": "J1",
+              "Mfg": "Sullins Connector Solutions",
+              "Mfg PN": "PPTC031LFBN-RC"
+            },
+            {
+              "Description": "DIODE GEN PURP 100V 250MA SOD323",
+              "Qty": 1,
+              "RefDes": "D2",
+              "Mfg": "Nexperia",
+              "Mfg PN": "BAS165J,115"
+            }
+          ],
+          "separator": ","
+        },
+        {
+          "type": "csv",
+          "path": "design/pcb/ventmon_T0.4/VentMon T0.4 BOM.csv",
+          "columns": [
+            "Description",
+            "Qty",
+            "RefDes",
+            "Mfg",
+            "Mfg PN"
+          ],
+          "row_count": 36,
+          "sample_rows": [
+            {
+              "Description": "CONN HDR 2POS 0.1 TIN PCB",
+              "Qty": 2,
+              "RefDes": "J2, J3",
+              "Mfg": "Sullins Connector Solutions",
+              "Mfg PN": "PPTC021LFBN-RC"
+            },
+            {
+              "Description": "CONN HDR 3POS 0.1 TIN PCB",
+              "Qty": 1,
+              "RefDes": "J1",
+              "Mfg": "Sullins Connector Solutions",
+              "Mfg PN": "PPTC031LFBN-RC"
+            },
+            {
+              "Description": "DIODE GEN PURP 100V 250MA SOD323",
+              "Qty": 1,
+              "RefDes": "D2",
+              "Mfg": "Nexperia",
+              "Mfg PN": "BAS165J,115"
+            }
+          ],
+          "separator": ","
+        }
+      ],
+      "analysis_time": "2024-12-10T09:26:14.931141"
+    },
+    {
+      "repo_url": "https://github.com/arithmaldor/VGA-Panel-Breakout",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:26:17.802843"
+    },
+    {
+      "repo_url": "https://github.com/DigitalNatureGroup/Howland-VCCS-for-GVS-experiment-prototype",
+      "bom_count": 1,
+      "patterns": [
+        {
+          "type": "csv",
+          "path": "schematics/BOM_GVS.csv",
+          "columns": [
+            "ID",
+            "Name",
+            "Designator",
+            "Footprint",
+            "Quantity",
+            "Manufacturer Part",
+            "Price"
+          ],
+          "row_count": 15,
+          "sample_rows": [
+            {
+              "ID": 1,
+              "Name": "22u",
+              "Designator": "C3,C4",
+              "Footprint": "C0805",
+              "Quantity": 2,
+              "Manufacturer Part": NaN,
+              "Price": NaN
+            },
+            {
+              "ID": 2,
+              "Name": "200pF",
+              "Designator": "C5,C6",
+              "Footprint": "C0805",
+              "Quantity": 2,
+              "Manufacturer Part": "VJ0805D201KXAAT",
+              "Price": 0.222
+            },
+            {
+              "ID": 3,
+              "Name": "DSS34",
+              "Designator": "D2",
+              "Footprint": "SOD-123_L2.8-W1.8-LS3.7-RD",
+              "Quantity": 1,
+              "Manufacturer Part": "DSS34",
+              "Price": 0.067
+            }
+          ],
+          "separator": "\t"
+        }
+      ],
+      "analysis_time": "2024-12-10T09:26:20.411274"
+    },
+    {
+      "repo_url": "https://github.com/W8LID/RS-485-FW",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:26:23.288184"
+    },
+    {
+      "repo_url": "https://github.com/Thore-Krug/RTC-mezzanine",
+      "bom_count": 0,
+      "patterns": [],
+      "error": "GitHub API error: 404 {\"message\": \"Not Found\", \"documentation_url\": \"https://docs.github.com/rest/repos/repos#get-a-repository\", \"status\": \"404\"}",
+      "analysis_time": "2024-12-10T09:26:23.660590"
+    },
+    {
+      "repo_url": "https://github.com/3mdeb/RTE-for-RPI-Schematics",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:26:29.925550"
+    },
+    {
+      "repo_url": "https://github.com/teslalab/BME680",
+      "bom_count": 1,
+      "patterns": [
+        {
+          "type": "excel",
+          "path": "hardware/Project Outputs for BB_BME680/odb/BB_BME680_BOM.xlsx",
+          "columns": [
+            "Comment",
+            "Description",
+            "Designator",
+            "Footprint",
+            "LibRef",
+            "Quantity",
+            "Total "
+          ],
+          "format": "xlsx"
+        }
+      ],
+      "analysis_time": "2024-12-10T09:26:34.662980"
+    },
+    {
+      "repo_url": "https://github.com/openinput-fw/russian-woodpecker",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:26:40.159282"
+    },
+    {
+      "repo_url": "https://github.com/watterott/RTC-Breakout",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:26:43.119388"
+    },
+    {
+      "repo_url": "https://github.com/openinput-fw/sammy",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:26:49.510982"
+    },
+    {
+      "repo_url": "https://github.com/fmalpartida/SAV-MAKER-I",
+      "bom_count": 1,
+      "patterns": [
+        {
+          "type": "excel",
+          "path": "src/BOM/SAV MAKER I Rev A - BOM.xlsx",
+          "columns": [
+            "Qty",
+            "Value",
+            "Parts",
+            "Device",
+            "Package",
+            "Description",
+            "Mouser part",
+            "Price",
+            "TOTAL"
+          ],
+          "format": "xlsx"
+        }
+      ],
+      "analysis_time": "2024-12-10T09:27:02.753891"
+    },
+    {
+      "repo_url": "https://github.com/tanmoydutta/carbondioxideiotsensor",
+      "bom_count": 0,
+      "patterns": [],
+      "analysis_time": "2024-12-10T09:27:04.220012"
+    }
+  ],
+  "analysis_time": "2024-12-10T09:27:04.220527"
+}

@@ -1,0 +1,13 @@
+pandas>=1.0.0
+numpy>=1.19.0
+requests>=2.25.0
+beautifulsoup4>=4.9.0
+markdown>=3.3.0
+pyyaml>=5.4.0
+tabulate>=0.8.0
+
+[dev]
+pytest>=6.0.0
+black>=21.0.0
+mypy>=0.900
+flake8>=3.9.0

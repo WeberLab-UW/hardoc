@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+src/hardoc.egg-info/PKG-INFO
+src/hardoc.egg-info/SOURCES.txt
+src/hardoc.egg-info/dependency_links.txt
+src/hardoc.egg-info/requires.txt
+src/hardoc.egg-info/top_level.txt

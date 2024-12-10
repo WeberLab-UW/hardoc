@@ -1,0 +1,2 @@
+repository_name,analysis_date,hardoc_version,bom_file,bom_format,total_components,overall_score,part_number_score,manufacturer_score,datasheet_score,alternatives_score,cost_info_score
+0xcb-1337,2024-12-09 19:37:02,unknown,prod/bom.csv,csv,25,0.0,0.0,0.0,0.0,0.0,0.0

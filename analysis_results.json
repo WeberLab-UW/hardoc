@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "timestamp": "2024-12-09T19:37:02.685199",
+    "hardoc_version": "unknown",
+    "export_type": "json"
+  },
+  "data": {
+    "repositories": [
+      {
+        "repository_url": "https://github.com/0xCB-dev/0xcb-1337",
+        "repository_name": "0xcb-1337",
+        "boms_found": 1,
+        "boms": [
+          {
+            "file_path": "prod/bom.csv",
+            "format": "csv",
+            "quality_analysis": {
+              "part_number_quality": {
+                "has_part_numbers": false,
+                "total_components": 25,
+                "specific_parts": 0,
+                "generic_parts": 0,
+                "value_only_parts": 0,
+                "empty_parts": 0,
+                "specificity": "unknown",
+                "score": 0.0
+              },
+              "manufacturer_info": {
+                "has_manufacturer_info": false,
+                "manufacturer_columns": [],
+                "components_with_mfg": 0,
+                "score": 0.0
+              },
+              "datasheet_links": {
+                "has_datasheet_links": false,
+                "total_links": 0,
+                "valid_links": 0,
+                "broken_links": 0,
+                "score": 0.0
+              },
+              "alternative_parts": {
+                "has_alternatives": false,
+                "components_with_alternatives": 0,
+                "score": 0.0
+              },
+              "cost_info": {
+                "has_cost_info": false,
+                "components_with_cost": 0,
+                "has_currency": false,
+                "score": 0.0
+              },
+              "overall_score": 0.0,
+              "recommendations": [
+                "Improve part number specificity by using manufacturer part numbers",
+                "Add manufacturer information for components",
+                "Include datasheet links for components",
+                "Consider adding alternative part suggestions",
+                "Add cost information for better project planning"
+              ]
+            },
+            "summary": {
+              "total_components": 25,
+              "unique_components": 25
+            }
+          }
+        ],
+        "overall_score": 0.0
+      },
+      {
+        "repository_url": "https://github.com/google/skywater-pdk",
+        "repository_name": "skywater-pdk",
+        "boms_found": 0,
+        "boms": [],
+        "overall_score": 0.0
+      }
+    ],
+    "total_repositories": 2,
+    "successful_analyses": 2,
+    "failed_analyses": 0
+  }
+}
